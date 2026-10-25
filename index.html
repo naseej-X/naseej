@@ -1,0 +1,2276 @@
+<!doctype html>
+<!--
+  نسيج | تتبّع العادات
+  © 2026 Abdullah HUDHUD. جميع الحقوق محفوظة.
+  معرّف الملكية: NSJ-8FCD-003C-29A5
+  تاريخ الإنشاء: 2026-10-17
+  لا يجوز نسخ هذا العمل أو إعادة نشره أو تعديله أو بيعه دون إذن كتابي من المالك.
+-->
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>نسيج | تتبّع العادات</title>
+<meta name="description" content="نسيج: موقع لتتبّع العادات اليومية مع حسابات وبروفايلات وإحصائيات ورسوم بيانية للأداء.">
+<meta name="author" content="Abdullah HUDHUD">
+<meta name="copyright" content="© 2026 Abdullah HUDHUD. جميع الحقوق محفوظة.">
+<meta name="theme-color" content="#F5F3F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#191413" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="نسيج">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23A8292B' d='M16 1.5L30.5 16 16 30.5 1.5 16z'/%3E%3Cpath fill='%23FFFBF5' d='M16 8.5L23.5 16 16 23.5 8.5 16z'/%3E%3Cpath fill='%232A211F' d='M16 13l3 3-3 3-3-3z'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAEZElEQVR42u3dMU7cYBDF8dkRBQV3QDSRACllrpLbUOQ05CopIyVFzpEiZYpICAnvBtuf7Xlv/q+Gp0+eH7bXZu3Tw91tEDKVZBMQcBBwEHAQcBBwEHAQcBCTXD1d37AVCHsOAg4yKCfurZCze47tzjloVm/Ojdr/ddIs3Zxb6HvdRrNucw5vf9tDs2hzjm0/10CzYnMObL/8uzTLNeeo9vf8Fs1azTmk/f0/T7NQM1dIycXrHPxh0TwPB4dkmpOTeZoX4uAyQOfmXNbOBcQOzbmgnVsPTZpzbjs3Lfs0n57vH/lAT9buOQg4CAEHAQcBBwEHAQcBBwGHTj5//8ZGAMdZGfgAx6V9Bj7Acelogg9wXHKAj0QG56fgWDj7zj4SGfgAx6p59/SRyMAHOAbMuJuPRAY+wDFsrn18JDLw0RrHFrPs4CORgY+mOLaen7ePRAY+2uHYc2auPhIZ+GiE46g5+flIZOCjBY4Ks3HykcjAhzmOavPw8JHIwIctjsozUPeRyMCHIQ6V7a7rI5HBaq1wbLetHz884EMYx9Yy8KGKY599Bj70cOx5NMGHEo79zzPwkcjg/FQYx7GfTTr7SGTgQxJHnesZPX0kMvAhhqPmNdBuPhIZ+JDBUf++SR8fiQx8CODQutfawUciAx+lcSjK6OAjkYGPojjUZXj7SGTgoxwOJxmuPhIZ+CiEw1WGn48DcHz9+Gmj5h+/fh6OY7s1bLfdah1WXH04yTjyhNTPh5mMgz/KOvnwkxGHXwTz8GEpIypcPlf34Sojitx40/VhLCPq3LJX9OEtI0r9s4+WD3sZUe3fBFV8dJARBf/BuL6PJjKi5lcTKvvoIyPKfqmppo9WMqLy1yGr+egmI4p/kbqOj4Yyov4jGCr46CkjJB7ecqyPtjJC5bFPR/noLCOEHhi3v4/mMkLrUZN7+kBGyD2kdh8fyJDEsYMPZAjjCM37+3IyQveVGlrbWlFGSL+MR2WLi8oI9dd41d/uujLC4AWAlbe+tIzweHVozRmoywiblw5Xm4SBjHB6XXmdeXjIsMJRZCo2MtxwHD4bJxmGOA6ckJkMTxyHzMlPhi2OnadlKcMZx24zc5VhjmOHyRnL8Mex6fy8ZbTAsdEU7WV0wTF8lh1kNMIxcKJNZPTCMWSufWS0w7Fyuq1kdMSxeMbdZDTFsWDSDWX0xTFr3j1ltMbxzqm3ldEdx39n31kGOC4JaC4DHGcdIAMc0xqQAY5pH8h4yen5/pGtQNhzEHAQcBBwEHAQcBBwEHAQcLzky5/fG62D5oLNObd3i3XTXLM5F4gbu26ayzbn3N6x66a5cnMu6B21bpqLN+ea85c166a5fnOuXNOyddMs0ZzrVzN33TSrNHMRjMw8rPCHRfM0Dg7JNE/j4GSe5mkcXAag+XVDDuw910OzaHOO7X3bRrNucwY3LWk+03x6uLvlAz2ZzNXT9Q1bgUyGK6QEHGR+OOcg7DkIOAg4CDgIOAg4CDiIS/4COKjRS+Uyq4QAAAAASUVORK5CYII=">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "نسيج", "alternateName": "نسيج لتتبّع العادات", "applicationCategory": "LifestyleApplication", "operatingSystem": "Web", "inLanguage": "ar", "author": {"@type": "Person", "name": "Abdullah HUDHUD"}, "copyrightHolder": {"@type": "Person", "name": "Abdullah HUDHUD"}, "copyrightYear": 2026, "dateCreated": "2026-10-17", "identifier": "NSJ-8FCD-003C-29A5"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300..600&family=Reem+Kufi:wght@500..700&display=swap">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+  --font-ui:"Readex Pro","Segoe UI",Tahoma,"Geeza Pro","Noto Sans Arabic","DejaVu Sans",Arial,sans-serif;
+  --font-kufi:"Reem Kufi","Readex Pro","Segoe UI",Tahoma,"Geeza Pro","Noto Kufi Arabic",sans-serif;
+  --bg:#F5F3F0;--surface:#FFFFFF;--surface-2:#ECE7E1;--ink:#2A211F;--muted:#6F625A;
+  --line:#E0D8CF;--warp-bg:#EAE4DD;--warp:#CABFB3;--accent:#A8292B;--on-accent:#FFFFFF;
+  --gold:#C08710;--gold-ink:#8A5D06;--motif:#FFFBF5;--edge:#2A211F;
+  --shadow:0 14px 36px rgba(42,33,31,.18);
+  --th-madder:#A8292B;--th-saffron:#C98A12;--th-indigo:#2F4B80;--th-olive:#5C7330;
+  --th-teal:#1D7268;--th-plum:#7A3A6A;--th-ochre:#C1571F;--th-kohl:#3A2E2A;
+  --th:var(--accent);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#191413;--surface:#231C1A;--surface-2:#2F2623;--ink:#F2ECE5;--muted:#ADA197;
+    --line:#3A302C;--warp-bg:#221B19;--warp:#54473F;--accent:#E2564F;--on-accent:#191413;
+    --gold:#E8AF3C;--gold-ink:#E8AF3C;--motif:#191413;--edge:#F2ECE5;
+    --shadow:0 14px 36px rgba(0,0,0,.55);
+    --th-madder:#E2564F;--th-saffron:#E8AF3C;--th-indigo:#86A3DC;--th-olive:#A2BE6E;
+    --th-teal:#55C3B6;--th-plum:#CB86B9;--th-ochre:#EF8D55;--th-kohl:#E6DDD3;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#191413;--surface:#231C1A;--surface-2:#2F2623;--ink:#F2ECE5;--muted:#ADA197;
+  --line:#3A302C;--warp-bg:#221B19;--warp:#54473F;--accent:#E2564F;--on-accent:#191413;
+  --gold:#E8AF3C;--gold-ink:#E8AF3C;--motif:#191413;--edge:#F2ECE5;
+  --shadow:0 14px 36px rgba(0,0,0,.55);
+  --th-madder:#E2564F;--th-saffron:#E8AF3C;--th-indigo:#86A3DC;--th-olive:#A2BE6E;
+  --th-teal:#55C3B6;--th-plum:#CB86B9;--th-ochre:#EF8D55;--th-kohl:#E6DDD3;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%;text-size-adjust:100%;background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-ui);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+h1,h2,h3,p{margin:0}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{padding:0}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0;padding:0;text-align:inherit;touch-action:manipulation}
+button:disabled{cursor:default;opacity:.38}
+:focus-visible{outline:2.5px solid var(--gold);outline-offset:2px}
+svg{display:block}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.muted{color:var(--muted)}
+.c-madder{--th:var(--th-madder)}.c-saffron{--th:var(--th-saffron)}.c-indigo{--th:var(--th-indigo)}.c-olive{--th:var(--th-olive)}
+.c-teal{--th:var(--th-teal)}.c-plum{--th:var(--th-plum)}.c-ochre{--th:var(--th-ochre)}.c-kohl{--th:var(--th-kohl)}
+.th-fill{fill:var(--th)}
+.wv-edge{fill:var(--edge)}.wv-motif{fill:var(--motif)}
+.wp-bg{fill:var(--warp-bg)}.wp-edge{fill:var(--line)}.wp-line{stroke:var(--warp);stroke-width:1.4}
+#defs-host{position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}
+.ic{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.flame{width:13px;height:13px;fill:currentColor;flex:none}
+.logo-a{fill:var(--accent)}.logo-m{fill:var(--motif)}.logo-e{fill:var(--edge)}
+
+/* ---------- shell ---------- */
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:720px;margin:0 auto;padding:14px 18px 2px}
+.brand{display:flex;align-items:center;gap:9px;font-family:var(--font-kufi);font-weight:700;font-size:1.35rem;line-height:1}
+.brand svg{width:26px;height:26px}
+.status{display:inline-flex;align-items:center;gap:7px;min-height:30px;padding:4px 11px;border:1px solid var(--line);border-radius:999px;font-size:.78rem;color:var(--muted);white-space:nowrap}
+.status i{width:7px;height:7px;background:var(--warp);transform:rotate(45deg);flex:none}
+.status.is-cloud i{background:var(--th-olive)}.status.is-saving i{background:var(--gold)}.status.is-local i{background:var(--th-indigo)}
+.status.is-error{color:var(--accent);border-color:currentColor}.status.is-error i{background:var(--accent)}
+.status button{text-decoration:underline;text-underline-offset:3px}
+.tabs{position:fixed;inset-inline:0;bottom:0;z-index:30;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--surface);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom,0px))}
+.tab{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:52px;padding:4px;border-radius:12px;font-size:.76rem;color:var(--muted);text-align:center}
+.tab svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}
+.tab[aria-current="page"]{color:var(--accent);font-weight:500}
+.tab[aria-current="page"] svg{stroke-width:2.1}
+.view{max-width:720px;margin:0 auto;padding:4px 18px calc(112px + env(safe-area-inset-bottom,0px))}
+@media (min-width:760px){
+  .tabs{position:static;width:min(684px,calc(100% - 36px));margin:12px auto 0;padding:5px;border:1px solid var(--line);border-radius:14px}
+  .tab{flex-direction:row;gap:8px;min-height:42px;font-size:.92rem}
+  .tab[aria-current="page"]{background:var(--surface-2);color:var(--ink)}
+  .view{padding-bottom:64px}
+}
+
+/* ---------- today ---------- */
+.hello{display:flex;align-items:center;gap:14px;margin-top:16px}
+.av{display:inline-grid;place-items:center;border-radius:50%;background:var(--surface-2);overflow:hidden;flex:none;line-height:1;user-select:none}
+.av img{width:100%;height:100%;object-fit:cover;display:block}
+.av-m{width:60px;height:60px;font-size:32px;box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--accent)}
+.av-l{width:88px;height:88px;font-size:46px;box-shadow:0 0 0 3px var(--bg),0 0 0 5.5px var(--accent)}
+.greet{color:var(--muted);font-size:.95rem;line-height:1.3}
+.name{font-family:var(--font-kufi);font-weight:700;font-size:clamp(1.9rem,6.4vw,2.6rem);line-height:1.15;overflow-wrap:anywhere}
+.dates{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px;margin-top:14px;font-size:.95rem}
+.dates .hijri{color:var(--muted);font-size:.88rem}
+.back-today{margin-inline-start:auto;font-size:.85rem;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.goal{margin-top:4px;color:var(--muted);font-size:.9rem}
+.band-wrap{margin-top:16px}
+.band{display:block;width:100%;border-radius:8px;overflow:hidden}
+.band.is-full{outline:2px solid var(--gold);outline-offset:3px}
+.band-sep{stroke:var(--bg);stroke-width:3}
+.band-cap{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:10px}
+.band-cap strong{font-family:var(--font-kufi);font-weight:600;font-size:1.2rem;line-height:1.3}
+.band-cap span{color:var(--muted);font-size:.85rem;font-variant-numeric:tabular-nums}
+.week{display:flex;align-items:center;gap:4px;margin-top:20px}
+.wk-days{flex:1;display:grid;grid-template-columns:repeat(7,1fr);gap:3px;list-style:none;margin:0;padding:0}
+.wk-nav{flex:none;width:30px;height:46px;display:grid;place-items:center;border-radius:10px;color:var(--muted)}
+.wd{width:100%;display:flex;flex-direction:column;align-items:center;gap:1px;padding:6px 0 8px;border-radius:12px;text-align:center}
+.wd-i{font-size:.74rem;color:var(--muted);line-height:1.4}
+.wd-n{font-weight:600;font-variant-numeric:tabular-nums;line-height:1.4}
+.wd svg{width:14px;height:14px;margin-top:3px}
+.wd.is-sel{background:var(--ink);color:var(--bg)}
+.wd.is-sel .wd-i{color:inherit;opacity:.75}
+.wd.is-today:not(.is-sel) .wd-n{color:var(--accent)}
+.md-fill{fill:var(--accent)}.md-eye{fill:var(--motif)}.md-miss{fill:none;stroke:var(--warp);stroke-width:1.3}.md-off{fill:var(--warp)}
+.wd.is-sel .md-fill{fill:var(--gold)}.wd.is-sel .md-eye{fill:var(--ink)}.wd.is-sel .md-miss{stroke:var(--muted)}
+.groups{margin-top:10px}
+.ghead{font-size:.82rem;font-weight:500;color:var(--muted);margin:18px 0 0}
+.hlist{list-style:none;margin:0;padding:0}
+.hrow{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.tog{flex:none;width:48px;height:48px;display:grid;place-items:center;border-radius:12px}
+.tog svg{width:46px;height:46px;transition:transform .15s ease}
+.tog:active svg{transform:scale(.9)}
+.t-out{fill:none;stroke:var(--th);stroke-width:2}
+.t-fill{fill:var(--th)}
+.t-chk{fill:none;stroke:var(--motif);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.t-num{fill:var(--ink);font:600 13px var(--font-ui);direction:ltr}
+.t-num.on{fill:var(--motif)}
+.h-main{flex:1;min-width:0}
+.h-name{display:flex;align-items:center;gap:8px;min-width:0;font-weight:500}
+.h-ico{font-size:1.15rem;line-height:1;flex:none}
+.h-txt{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hrow.is-done .h-txt{color:var(--muted)}
+.h-meta{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px;margin-top:1px;font-size:.8rem;color:var(--muted)}
+.h-meta:empty{display:none}
+.cnt{font-variant-numeric:tabular-nums}
+.streak{display:inline-flex;align-items:center;gap:3px;color:var(--gold-ink)}
+.minus{padding:0 9px;min-height:24px;border:1px solid var(--line);border-radius:999px;font-size:.78rem;color:var(--muted);direction:ltr}
+.strand{flex:none}
+.st-miss{fill:none;stroke:var(--warp);stroke-width:1.4}
+.st-pend{fill:none;stroke:var(--th);stroke-width:1.4;stroke-dasharray:2.2 1.8}
+.st-off{fill:var(--warp)}
+@media (max-width:350px){.strand{display:none}}
+.empty{margin-top:18px;padding:24px 18px;border:1.5px dashed var(--warp);border-radius:16px;text-align:center}
+.empty p{color:var(--muted);margin-bottom:12px}
+.empty p:last-child{margin-bottom:0}
+
+/* ---------- buttons & fields ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:8px 18px;border-radius:12px;font-weight:500;font-size:.95rem;line-height:1.3}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-ghost{background:var(--surface);border:1px solid var(--line)}
+.btn-danger{color:var(--accent);border:1px solid currentColor}
+.btn-sm{min-height:34px;padding:4px 12px;font-size:.85rem;border-radius:10px}
+.ibtn{width:40px;height:40px;display:grid;place-items:center;border-radius:10px;color:var(--muted);flex:none}
+@media (hover:hover){.ibtn:not(:disabled):hover{background:var(--surface-2);color:var(--ink)}.btn-ghost:hover{background:var(--surface-2)}}
+.field{display:block;margin-top:16px}
+.lbl{display:block;margin-bottom:7px;font-size:.85rem;font-weight:500;color:var(--muted)}
+.inp{display:block;width:100%;min-height:46px;padding:10px 13px;border:1px solid var(--line);border-radius:12px;background:var(--bg);font-size:1rem}
+.inp:focus{outline:2px solid var(--gold);outline-offset:0;border-color:transparent}
+.inp::placeholder{color:var(--muted);opacity:.75}
+.err{min-height:1.2em;margin-top:6px;font-size:.85rem;color:var(--accent)}
+.err:empty{min-height:0;margin:0}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button,.chips button{min-height:38px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;background:var(--bg);font-size:.9rem;line-height:1.3}
+.seg button[aria-pressed="true"],.chips button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.seg--days button{min-width:52px;padding-inline:10px}
+.presets{display:flex;flex-wrap:wrap;gap:4px 14px;margin-bottom:10px}
+.presets button{font-size:.82rem;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.emoji-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:6px}
+.emo{height:44px;display:grid;place-items:center;border-radius:12px;background:var(--bg);border:1.5px solid transparent;font-size:1.35rem;line-height:1}
+.emo[aria-pressed="true"]{border-color:var(--ink);background:var(--surface-2)}
+.swatches{display:flex;flex-wrap:wrap;gap:14px;padding:6px 6px 2px}
+.sw{position:relative;width:30px;height:30px;border-radius:4px;background:var(--th);transform:rotate(45deg)}
+.sw[aria-pressed="true"]{box-shadow:0 0 0 3px var(--surface),0 0 0 5px var(--th)}
+.sw[aria-pressed="true"]::after{content:"";position:absolute;inset:10px;border-radius:2px;background:var(--motif)}
+.switch{display:flex;align-items:center;gap:10px;margin-top:16px;cursor:pointer;width:fit-content}
+.switch input{width:20px;height:20px;margin:0;accent-color:var(--accent)}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:2px 2px 6px;scrollbar-width:thin}
+.chips button{flex:none;display:inline-flex;align-items:center;gap:6px}
+.sugg{display:flex;gap:6px;overflow-x:auto;padding:2px 2px 8px;scrollbar-width:thin}
+.sugg button{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:5px 12px;border:1px dashed var(--warp);border-radius:999px;font-size:.85rem;background:var(--bg)}
+.note{font-size:.86rem;line-height:1.75;color:var(--muted)}
+.row-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+
+/* ---------- habits ---------- */
+.pane{margin-top:20px}
+.pane-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:6px}
+.h2{font-family:var(--font-kufi);font-weight:700;font-size:1.6rem;line-height:1.3}
+.mrow{display:flex;align-items:center;gap:10px;padding:12px 0;padding-inline-start:12px;border-bottom:1px solid var(--line);border-inline-start:4px solid var(--th)}
+.m-ico{font-size:1.4rem;line-height:1;flex:none}
+.m-main{flex:1;min-width:0}
+.m-name{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.m-meta{font-size:.8rem;color:var(--muted)}
+.m-act{display:flex;align-items:center;gap:2px;flex:none}
+.arch{margin-top:24px}
+.arch summary{cursor:pointer;padding:8px 0;font-size:.92rem;color:var(--muted)}
+.arch .mrow{border-inline-start-color:var(--warp)}
+
+/* ---------- dialogs ---------- */
+dialog{padding:0;border:0;background:transparent;color:inherit;max-width:100vw;max-height:100vh;max-height:100dvh;overflow:visible}
+dialog::backdrop{background:rgba(25,18,16,.5)}
+.sheet{display:flex;flex-direction:column;width:min(560px,calc(100vw - 32px));max-height:88vh;max-height:min(88dvh,880px);background:var(--surface);border-radius:20px;box-shadow:var(--shadow)}
+.sheet-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px 6px}
+.sheet-head h2{font-family:var(--font-kufi);font-weight:700;font-size:1.35rem}
+.sheet-body{overflow-y:auto;padding:0 18px 14px;overscroll-behavior:contain}
+.sheet-foot{display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:12px 18px 16px;border-top:1px solid var(--line)}
+.sheet-foot .btn-ghost:first-child{margin-inline-end:auto}
+.cf-msg{padding:22px 20px 8px;line-height:1.8}
+@media (max-width:640px){
+  dialog.dlg{margin:auto 0 0;width:100%}
+  dialog.dlg .sheet{width:100%;max-height:92vh;max-height:92dvh;border-radius:20px 20px 0 0;padding-bottom:env(safe-area-inset-bottom,0px)}
+}
+
+/* ---------- stats ---------- */
+.mnav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:34px 0 4px}
+.mnav .h2{font-size:1.25rem;text-align:center}
+.rug{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:10px;padding:10px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.rug-h{padding-bottom:2px;font-size:.72rem;text-align:center;color:var(--muted)}
+.rc{position:relative;display:block;width:100%;aspect-ratio:1;border-radius:9px;background:var(--bg)}
+.rc svg{position:absolute;inset:14%;width:72%;height:72%}
+.rc-n{position:absolute;top:4px;inset-inline-start:6px;font-size:.66rem;line-height:1;color:var(--muted);font-variant-numeric:tabular-nums}
+.rc.is-today{box-shadow:inset 0 0 0 1.5px var(--ink)}
+.rc.is-future{opacity:.45}
+.rc-blank{background:transparent}
+.rc-eye{fill:var(--motif)}
+.legend{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;margin-top:10px;font-size:.78rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend svg{width:16px;height:16px}
+.sums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}
+.sum{padding-top:10px;border-top:2px solid var(--th)}
+.sum b{display:block;font-family:var(--font-kufi);font-weight:600;font-size:1.3rem;line-height:1.3;font-variant-numeric:tabular-nums}
+.sum span{display:block;margin-top:2px;font-size:.78rem;color:var(--muted);line-height:1.5}
+.sum .sum-sub{margin-top:0;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.h3{font-family:var(--font-kufi);font-weight:600;font-size:1.15rem;margin:28px 0 6px}
+.htable{width:100%;border-collapse:collapse;table-layout:fixed;font-size:.9rem}
+.htable th{padding:6px 0;font-size:.74rem;font-weight:500;color:var(--muted);text-align:center;border-bottom:1px solid var(--line)}
+.htable th:first-child{text-align:start}
+.htable td{padding:10px 0;border-bottom:1px solid var(--line);text-align:center;font-variant-numeric:tabular-nums;vertical-align:middle}
+.htable td:first-child{text-align:start}
+.htable col.c-num{width:62px}.htable col.c-pc{width:86px}
+.ht-name{display:flex;align-items:center;gap:8px;min-width:0}
+.ht-name span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar{display:block;height:5px;margin:5px auto 0;width:56px;border-radius:3px;background:var(--warp-bg);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--th)}
+
+/* ---------- profile & onboarding ---------- */
+.pf-id{display:flex;align-items:center;gap:18px;margin-top:18px}
+.pf-name{font-family:var(--font-kufi);font-weight:700;font-size:1.5rem;line-height:1.25;overflow-wrap:anywhere}
+.section{margin-top:30px}
+.section > h3{font-family:var(--font-kufi);font-weight:600;font-size:1.15rem;margin-bottom:10px}
+.avp-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.types{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:560px){.types{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.type{position:relative;display:flex;flex-direction:column;gap:2px;padding:12px 12px 14px;border:1px solid var(--line);border-radius:16px;background:var(--surface);text-align:start}
+.type .t-ico{font-size:1.6rem;line-height:1.2}
+.type .t-name{font-family:var(--font-kufi);font-weight:600;font-size:1.05rem}
+.type .t-desc{font-size:.78rem;line-height:1.55;color:var(--muted)}
+.type[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.type[aria-pressed="true"]::after{content:"";position:absolute;top:14px;inset-inline-end:14px;width:10px;height:10px;background:var(--accent);transform:rotate(45deg)}
+.picks{list-style:none;margin:10px 0 0;padding:0}
+.pick{display:flex;align-items:center;gap:10px;width:100%;padding:10px 0;border-bottom:1px solid var(--line);text-align:start}
+.pick .box{display:grid;place-items:center;width:22px;height:22px;flex:none;border:1.5px solid var(--warp);border-radius:6px}
+.pick .box .ic{width:15px;height:15px;stroke:var(--bg);stroke-width:3;opacity:0}
+.pick[aria-pressed="true"] .box{background:var(--ink);border-color:var(--ink)}
+.pick[aria-pressed="true"] .box .ic{opacity:1}
+.p-txt{display:flex;flex-direction:column;flex:1;min-width:0}
+.p-meta{font-size:.78rem;color:var(--muted)}
+.savebar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:26px;padding:10px 12px 10px 10px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.savebar p{font-size:.86rem;color:var(--muted);padding-inline-start:4px}
+.savebar.is-dirty{position:sticky;bottom:calc(82px + env(safe-area-inset-bottom,0px));z-index:5;box-shadow:var(--shadow)}
+.savebar.is-dirty p{color:var(--ink)}
+@media (min-width:760px){.savebar.is-dirty{bottom:16px}}
+.danger{margin-top:34px;padding-top:18px;border-top:1px dashed var(--warp)}
+.ob{max-width:580px;margin:0 auto;padding:18px 18px calc(48px + env(safe-area-inset-bottom,0px))}
+.ob-brand{display:flex;align-items:center;gap:9px;font-family:var(--font-kufi);font-weight:700;font-size:1.4rem;line-height:1}
+.ob-brand svg{width:28px;height:28px}
+.ob .band{margin-top:18px}
+.ob-step{margin-top:24px;font-size:.85rem;color:var(--muted)}
+.ob-title{margin-top:2px;font-family:var(--font-kufi);font-weight:700;font-size:clamp(2rem,7.5vw,2.7rem);line-height:1.2}
+.ob-lead{max-width:46ch;margin-top:8px;color:var(--muted)}
+.ob-av{margin-top:22px}
+.ob-actions{display:flex;justify-content:space-between;gap:10px;margin-top:28px}
+.ob-actions .btn-primary{min-width:150px;margin-inline-start:auto}
+.ob-note{margin-top:14px}
+
+/* ---------- profiles ---------- */
+.top-start{display:flex;align-items:center;gap:10px;min-width:0;flex:1 1 auto}
+.status{flex:none}
+@media (max-width:520px){.brand-txt{display:none}}
+.pchip{display:inline-flex;align-items:center;gap:7px;min-width:0;max-width:min(240px,100%);min-height:40px;padding-block:4px;padding-inline:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+.pchip .ic{width:16px;height:16px;color:var(--muted)}
+.pchip-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500;font-size:.9rem}
+.av-s{width:30px;height:30px;font-size:17px}
+.av-p{width:46px;height:46px;font-size:25px}
+.hello-av{border-radius:50%;flex:none}
+.plist{list-style:none;margin:0;padding:0}
+.prow{display:flex;align-items:center;gap:12px;width:100%;padding:10px 2px;border-bottom:1px solid var(--line);text-align:start}
+.prow-txt{display:flex;flex-direction:column;flex:1;min-width:0}
+.prow-name{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prow-meta{font-size:.8rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pick-head{margin-top:16px;font-size:.84rem;font-weight:600}
+.sugg-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 12px;margin-top:18px}
+.prow[aria-current="true"] .prow-name{color:var(--accent)}
+.prow-mark{width:10px;height:10px;background:var(--accent);transform:rotate(45deg);flex:none;margin-inline-end:6px}
+.pf-switch{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 12px;margin-top:16px;padding:10px 12px;border:1px dashed var(--warp);border-radius:14px}
+.pf-switch p{font-size:.86rem;color:var(--muted)}
+
+/* ---------- charts ---------- */
+.perf-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 12px;margin-top:24px}
+.perf-head .h3{margin:0}
+.seg--sm button{min-height:34px;padding:4px 13px;font-size:.84rem}
+.chart{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:8px;margin-top:18px}
+.ch-y{position:relative;width:2.5rem;height:var(--h);font-size:.66rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.ch-y span{position:absolute;inset-inline-end:0;transform:translateY(-50%);line-height:1}
+.ch-plot{position:relative;height:var(--h)}
+.ch-grid i{position:absolute;inset-inline:0;height:0;border-top:1px dashed var(--line)}
+.ch-grid i:nth-child(1){top:0}.ch-grid i:nth-child(2){top:50%}.ch-grid i:nth-child(3){top:100%;border-top:1.5px solid var(--warp)}
+.ch-bars{position:absolute;inset:0;display:flex;align-items:stretch}
+.cbar{position:relative;flex:1 1 0;min-width:0;height:100%;display:flex;align-items:flex-end;justify-content:center;border-radius:6px 6px 0 0}
+.cbar i{position:relative;display:block;width:min(64%,26px);height:calc(var(--v) * 100%);border-radius:3px 3px 0 0;background:var(--th);transform-origin:bottom;animation:grow .45s cubic-bezier(.2,.7,.2,1) both}
+.cbar.is-zero i{height:3px;background:var(--warp)}
+.cbar.is-none i{width:4px;height:4px;margin-bottom:-2px;border-radius:50%;background:var(--warp);animation:none}
+.cbar.is-cur i{background:repeating-linear-gradient(135deg,var(--th) 0 3px,transparent 3px 6px);box-shadow:inset 0 0 0 1.5px var(--th)}
+.cbar.is-full i::before,.cbar.is-best i::before{content:"";position:absolute;top:-5px;left:50%;width:9px;height:9px;margin-left:-4.5px;background:var(--gold);transform:rotate(45deg)}
+.chart.dense .cbar i::before{top:-4px;width:6px;height:6px;margin-left:-3px}
+.cbar.is-sel{background:color-mix(in srgb,var(--ink) 8%,transparent)}
+.cbar:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.ch-line{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.ch-line polyline{fill:none;stroke:var(--ink);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke;opacity:.7}
+.ch-x{display:flex;margin-top:6px;font-size:.66rem;line-height:1.35;color:var(--muted);text-align:center;font-variant-numeric:tabular-nums}
+.ch-x span{flex:1 1 0;min-width:0;white-space:nowrap;display:flex;flex-direction:column;align-items:center;overflow:visible}
+.ch-x em{font-style:normal;display:block}
+.ch-info{min-height:1.6em;margin-top:10px;font-size:.9rem;font-weight:500}
+.ch-legend{display:flex;flex-wrap:wrap;gap:4px 16px;margin-top:4px;font-size:.76rem;color:var(--muted)}
+.ch-legend span{display:inline-flex;align-items:center;gap:6px}
+.ch-legend i{display:inline-block;width:12px;height:10px;border-radius:2px;background:var(--th)}
+.ch-legend i.ln{height:2px;background:var(--ink);opacity:.7}
+.ch-legend i.st{background:repeating-linear-gradient(135deg,var(--th) 0 2px,transparent 2px 4px);box-shadow:inset 0 0 0 1px var(--th)}
+.sums--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sum b.up{color:var(--th-olive)}.sum b.down{color:var(--accent)}
+.wd-sec{margin-top:6px}
+@keyframes grow{from{transform:scaleY(0)}}
+
+/* ---------- ownership ---------- */
+#wm{position:fixed;inset:0;z-index:25;pointer-events:none;opacity:var(--wm-o,.06);background-repeat:repeat;background-size:300px 170px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #wm{--wm-o:.09}}
+:root[data-theme="dark"] #wm{--wm-o:.09}
+.owner{max-width:720px;margin:44px auto 0;padding:16px 0 0;border-top:1px dashed var(--warp);text-align:center;font-size:.76rem;line-height:1.9;color:var(--muted)}
+.owner b{font-weight:600;color:var(--ink)}
+.about dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:0;font-size:.86rem}
+.about dt{color:var(--muted)}
+.about dd{margin:0}
+@media print{#wm{opacity:.14}}
+
+/* ---------- accounts ---------- */
+.auth .ob-title{margin-top:26px}
+.btn-block{display:flex;width:100%}
+.au-google{margin-top:24px}
+.au-or{display:flex;align-items:center;gap:12px;margin:22px 0 2px;font-size:.8rem;color:var(--muted)}
+.au-or::before,.au-or::after{content:"";flex:1;border-top:1px solid var(--line)}
+.pw{position:relative;display:block}
+.pw .inp{padding-left:52px}
+.inp[dir="ltr"]{text-align:left}
+.pw-eye{position:absolute;left:4px;top:50%;transform:translateY(-50%);width:42px;height:40px;display:grid;place-items:center;border-radius:10px;color:var(--muted)}
+.auth .btn-primary.btn-block{margin-top:14px}
+.linkbtn{color:var(--accent);font-size:.88rem;text-decoration:underline;text-underline-offset:3px}
+.au-forgot{display:block;margin:14px auto 0}
+.au-switch{margin-top:18px;font-size:.92rem;text-align:center}
+.au-info{margin-top:8px;font-size:.86rem;color:var(--th-olive)}
+.au-note{margin-top:18px;text-align:center}
+.au-setup{margin-top:20px;padding:12px 14px;border:1px dashed var(--accent);border-radius:14px;font-size:.88rem;line-height:1.8}
+.au-setup b{color:var(--accent)}
+.danger{display:flex;flex-wrap:wrap;gap:10px}
+
+/* ---------- misc ---------- */
+.loading{min-height:78vh;display:grid;place-items:center;text-align:center;color:var(--muted)}
+.loading svg{width:46px;height:46px;margin:0 auto 14px;animation:turn 1.5s cubic-bezier(.6,0,.4,1) infinite}
+@keyframes turn{to{transform:rotate(90deg)}}
+.toast{position:fixed;inset-inline:0;bottom:calc(88px + env(safe-area-inset-bottom,0px));z-index:60;width:max-content;max-width:calc(100% - 32px);margin:0 auto;padding:10px 16px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:.9rem;opacity:0;transform:translateY(8px);transition:opacity .25s,transform .25s;pointer-events:none}
+.toast.show{opacity:1;transform:none}
+@media (min-width:760px){.toast{bottom:28px}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="wm" aria-hidden="true"></div>
+<div id="defs-host" aria-hidden="true"></div>
+<div id="app"></div>
+<dialog id="dlg-habit" class="dlg" aria-labelledby="hd-title"></dialog>
+<dialog id="dlg-confirm" class="dlg" aria-label="تأكيد"></dialog>
+<dialog id="dlg-profiles" class="dlg" aria-labelledby="pl-title"></dialog>
+<input type="file" id="file-img" accept="image/*" hidden>
+<input type="file" id="file-json" accept=".json,application/json" hidden>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="https://www.gstatic.com/firebasejs/12.19.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.19.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore-compat.js"></script>
+<script>
+(() => {
+'use strict';
+
+/* ================= بيانات الملكية ================= */
+const OWNER_NAME = "Abdullah HUDHUD";
+const OWNER_YEAR = 2026;
+const OWNERSHIP_ID = 'NSJ-8FCD-003C-29A5';
+
+/* ================= إعدادات Firebase (من Project settings في Firebase) ================= */
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyBtX3ltTpDHvS074jsnkjC_pJbRNAHcGRs",
+  authDomain: "nacej-6ed23.firebaseapp.com",
+  projectId: "nacej-6ed23",
+  appId: "1:958734166481:web:b2d2b569b847f7d707d8f0"
+};
+const AUTH_ON = !!(FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.projectId);
+const FB = { auth:null, fs:null, user:null };
+let AUTH_PW = '';
+
+/* ================= constants ================= */
+const THREADS = [['madder','أحمر'],['saffron','زعفراني'],['indigo','نيلي'],['olive','زيتوني'],['teal','فيروزي'],['plum','أرجواني'],['ochre','برتقالي'],['kohl','داكن']];
+const THREAD_IDS = THREADS.map(t => t[0]);
+const DAY_NAMES = ['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'];
+const DAY_SHORT = ['أحد','اثنين','ثلاثاء','أربعاء','خميس','جمعة','سبت'];
+const DAY_INIT = ['ح','ن','ث','ر','خ','ج','س'];
+const TIMES = [['morning','الصباح'],['noon','الظهيرة'],['evening','المساء'],['any','أي وقت']];
+const TIME_NAME = Object.fromEntries(TIMES);
+const ALL = [0,1,2,3,4,5,6];
+const WORK = [0,1,2,3,4];
+const HABIT_ICONS = ['📖','📚','✏️','🧠','💧','🚶','🏃','🏋️','🧘','🚴','🏊','🥗','🍎','🥛','☕','😴','🌙','🌅','☀️','🕌','📿','🤲','🌴','✨','📵','💻','🗓️','🎯','⏰','💰','✍️','🎨','🎸','🌿','🧹','🦷','💊','❤️','📞','🐪'];
+const AV_ICONS = ['🦅','🐪','🦁','🐎','🐆','🦉','🐢','🦋','🌴','🌵','🌙','⭐','☀️','🌊','🔥','⚡','🍀','🌸','🌻','🎯','📚','🧠','🎧','☕'];
+const MAX_PROFILES = 10;
+const PID_RE = /^(main|p[a-z0-9]{4,12})$/;
+
+const PROFILES = [
+  {id:'study', icon:'🎓', name:'دراسة', desc:'مذاكرة منتظمة وتركيز ونوم كافٍ', habits:[
+    {name:'مراجعة محاضرات اليوم', icon:'📚', color:'indigo', days:WORK, time:'evening'},
+    {name:'حل تمارين ومسائل', icon:'✏️', color:'saffron', days:WORK, time:'evening'},
+    {name:'قراءة 20 دقيقة', icon:'📖', color:'teal'},
+    {name:'شرب الماء', icon:'💧', color:'indigo', kind:'count', target:8, unit:'أكواب'},
+    {name:'ساعة بلا جوال', icon:'📵', color:'plum', time:'evening'},
+    {name:'النوم قبل 12', icon:'😴', color:'kohl', time:'evening'}
+  ]},
+  {id:'fitness', icon:'🏋️', name:'لياقة', desc:'حركة يومية وتغذية ونوم يساعد الجسم', habits:[
+    {name:'تمرين 45 دقيقة', icon:'🏋️', color:'madder', days:[0,2,4], time:'evening'},
+    {name:'8000 خطوة', icon:'🚶', color:'olive'},
+    {name:'شرب الماء', icon:'💧', color:'indigo', kind:'count', target:8, unit:'أكواب'},
+    {name:'إطالة 10 دقائق', icon:'🧘', color:'teal', time:'morning'},
+    {name:'وجبات بلا سكر مضاف', icon:'🥗', color:'ochre'},
+    {name:'نوم 7 ساعات', icon:'😴', color:'kohl', time:'evening'}
+  ]},
+  {id:'work', icon:'💼', name:'عمل وإنتاجية', desc:'تخطيط وتركيز وحدود واضحة للعمل', habits:[
+    {name:'تخطيط اليوم', icon:'🗓️', color:'saffron', days:WORK, time:'morning'},
+    {name:'إنجاز أهم مهمة أولاً', icon:'🎯', color:'madder', days:WORK, time:'morning'},
+    {name:'تعلّم مهارة 30 دقيقة', icon:'🧠', color:'indigo'},
+    {name:'مشي قصير', icon:'🚶', color:'olive', time:'noon'},
+    {name:'إنهاء العمل في وقته', icon:'⏰', color:'kohl', days:WORK, time:'evening'},
+    {name:'ادخار مبلغ صغير', icon:'💰', color:'ochre'}
+  ]},
+  {id:'wellness', icon:'🌿', name:'صحة وتوازن', desc:'عادات بسيطة للجسم والبال', habits:[
+    {name:'شرب الماء', icon:'💧', color:'indigo', kind:'count', target:8, unit:'أكواب'},
+    {name:'5 دقائق تنفّس هادئ', icon:'🌿', color:'teal', time:'morning'},
+    {name:'فواكه وخضار', icon:'🍎', color:'olive'},
+    {name:'مشي 30 دقيقة', icon:'🚶', color:'ochre'},
+    {name:'كتابة 3 أشياء ممتن لها', icon:'✍️', color:'plum', time:'evening'},
+    {name:'النوم قبل 11', icon:'😴', color:'kohl', time:'evening'}
+  ]},
+  {id:'faith', icon:'🕌', name:'عبادة وروحانيات', desc:'ورد يومي وأذكار وصلاة في وقتها', habits:[
+    {name:'الصلوات في وقتها', icon:'🕌', color:'teal', kind:'count', target:5, unit:'صلوات'},
+    {name:'أذكار الصباح', icon:'🌅', color:'saffron', time:'morning'},
+    {name:'أذكار المساء', icon:'🌙', color:'indigo', time:'evening'},
+    {name:'ورد القرآن', icon:'📖', color:'olive'},
+    {name:'صلاة الوتر', icon:'✨', color:'plum', time:'evening'},
+    {name:'صيام الاثنين والخميس', icon:'🌴', color:'ochre', days:[1,4]}
+  ]},
+  {id:'custom', icon:'🧶', name:'مخصص', desc:'قائمة فارغة لعاداتك الخاصة', habits:[]}
+];
+
+/* ================= utils ================= */
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const clone = o => o == null ? o : JSON.parse(JSON.stringify(o));
+const r2 = n => Math.round(n * 100) / 100;
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const newId = () => 'h_' + Math.random().toString(36).slice(2, 9) + Date.now().toString(36).slice(-3);
+const pad = n => String(n).padStart(2, '0');
+const keyOf = d => d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+const parseKey = k => { const a = k.split('-'); return new Date(+a[0], +a[1] - 1, +a[2]); };
+const addDays = (k, n) => { const d = parseKey(k); d.setDate(d.getDate() + n); return keyOf(d); };
+const todayKey = () => keyOf(new Date());
+const dowOf = k => parseKey(k).getDay();
+const monthOf = k => k.slice(0, 7);
+const addMonths = (mk, n) => { const a = mk.split('-'); const d = new Date(+a[0], +a[1] - 1 + n, 1); return d.getFullYear() + '-' + pad(d.getMonth() + 1); };
+const daysIn = mk => { const a = mk.split('-'); return new Date(+a[0], +a[1], 0).getDate(); };
+const KEY_RE = /^\d{4}-\d{2}-\d{2}$/;
+const IMG_RE = /^data:image\/(png|jpe?g|webp|gif);base64,[A-Za-z0-9+/=]+$/;
+const reduceMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function mkFmt(locs, opts) { for (const l of locs) { try { return new Intl.DateTimeFormat(l, opts); } catch (e) {} } return null; }
+const F_DAY = mkFmt(['ar-u-ca-gregory-nu-latn', 'ar'], {weekday:'long', day:'numeric', month:'long'});
+const F_DATE = mkFmt(['ar-u-ca-gregory-nu-latn', 'ar'], {day:'numeric', month:'long'});
+const F_MONTH = mkFmt(['ar-u-ca-gregory-nu-latn', 'ar'], {month:'long', year:'numeric'});
+const F_HIJRI = mkFmt(['ar-SA-u-ca-islamic-umalqura-nu-latn', 'ar-u-ca-islamic-umalqura-nu-latn', 'ar-u-ca-islamic-nu-latn'], {day:'numeric', month:'long', year:'numeric'});
+const fmtK = (f, k) => { try { return f ? f.format(parseKey(k)) : k; } catch (e) { return k; } };
+const fmtMonth = mk => { try { return F_MONTH.format(new Date(+mk.slice(0, 4), +mk.slice(5, 7) - 1, 1)); } catch (e) { return mk; } };
+
+function daysAr(n) {
+  if (n === 1) return 'يوم واحد';
+  if (n === 2) return 'يومان';
+  const r = n % 100;
+  if (r >= 3 && r <= 10) return n + ' أيام';
+  if (r >= 11 && r <= 99) return n + ' يوماً';
+  return n + ' يوم';
+}
+const orderDays = ws => Array.from({length:7}, (_, i) => (ws + i) % 7);
+const curWeekStart = () => S.profile ? (S.profile.weekStart || 0) : (S.ui.ob ? S.ui.ob.weekStart : 0);
+function schedText(days) {
+  const s = [...new Set(days)].sort((a, b) => a - b);
+  const j = s.join(',');
+  if (s.length === 7) return 'كل يوم';
+  if (j === '0,1,2,3,4') return 'من الأحد إلى الخميس';
+  if (j === '1,2,3,4,5') return 'من الاثنين إلى الجمعة';
+  if (j === '5,6') return 'الجمعة والسبت';
+  return orderDays(curWeekStart()).filter(d => s.includes(d)).map(d => DAY_NAMES[d]).join('، ');
+}
+function habitMeta(h) {
+  const parts = [schedText(h.days || ALL)];
+  if (h.time && h.time !== 'any') parts.push(TIME_NAME[h.time]);
+  if (h.kind === 'count') parts.push(('الهدف ' + (h.target || 1) + ' ' + (h.unit || '')).trim());
+  return parts.join('، ');
+}
+
+/* ================= icons ================= */
+const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path class="logo-a" d="M16 1.5L30.5 16 16 30.5 1.5 16z"/><path class="logo-m" d="M16 8.5L23.5 16 16 23.5 8.5 16z"/><path class="logo-e" d="M16 13l3 3-3 3-3-3z"/></svg>';
+const TAB_ICON = {
+  today:'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3l9 9-9 9-9-9z"/><path d="M12 8.5l3.5 3.5-3.5 3.5-3.5-3.5z"/></svg>',
+  habits:'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h10M4 12h10M4 18h10"/><path d="M19 4.5l1.5 1.5L19 7.5 17.5 6zM19 10.5l1.5 1.5-1.5 1.5-1.5-1.5zM19 16.5l1.5 1.5-1.5 1.5-1.5-1.5z"/></svg>',
+  stats:'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M8.5 7l2 2-2 2-2-2zM15.5 7l2 2-2 2-2-2zM12 12.5l2.5 2.5-2.5 2.5-2.5-2.5z"/></svg>',
+  profile:'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8.5" r="4"/><path d="M4.5 20c1.4-3.8 4.2-5.7 7.5-5.7s6.1 1.9 7.5 5.7"/></svg>'
+};
+const SV = {
+  prev:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7"/></svg>',
+  next:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7"/></svg>',
+  plus:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg>',
+  up:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
+  down:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M6 13l6 6 6-6"/></svg>',
+  close:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  check:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+  image:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="14" rx="2"/><path d="M3.5 16l5-5 4 4 2.5-2.5 5 5"/><circle cx="15.5" cy="9.5" r="1.5"/></svg>',
+  download:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>',
+  upload:'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 15.5V4.5M7 9l5-5 5 5M5 19.5h14"/></svg>',
+  flame:'<svg class="flame" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.5 2.5c.6 3.2 4.8 5.3 4.8 10.4a5.3 5.3 0 0 1-10.6 0c0-2.6 1.4-4.3 2.6-5.4.2 1.7 1.1 2.8 2.4 3.2-.4-3.1-.1-5.7.8-8.2z"/></svg>'
+};
+const dia = (cx, cy, r, cls) => `<polygon class="${cls}" points="${r2(cx)},${r2(cy - r)} ${r2(cx + r)},${r2(cy)} ${r2(cx)},${r2(cy + r)} ${r2(cx - r)},${r2(cy)}"/>`;
+SV.chev = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>';
+SV.users = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="9" cy="8.5" r="3.5"/><path d="M2.5 19.5c1-3.3 3.4-5 6.5-5s5.5 1.7 6.5 5"/><circle cx="17" cy="9.5" r="2.8"/><path d="M16.5 14.6c2.4.2 4.2 1.8 5 4.4"/></svg>';
+SV.eye = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+SV.eyeOff = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 3l18 18"/><path d="M10.6 5.6A9.8 9.8 0 0 1 12 5.5c6 0 9.5 6.5 9.5 6.5a17 17 0 0 1-3.2 3.9M6.5 7.4C4 9.1 2.5 12 2.5 12S6 18.5 12 18.5c1.5 0 2.9-.4 4.1-1"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>';
+
+/* ================= state ================= */
+const S = {
+  all: {}, pid: 'main',
+  ui: { tab:'today', day: todayKey(), follow: true, month: monthOf(todayKey()), stat:'all', ob: null, pdraft: null, auth: { mode:'signin', email:'', busy:false, err:'', info:'', showPw:false, fatal:false },
+        bandPrev: null, bandIntro: false, obIntro: false, fileFor: null, sel: {} },
+  sync: { mode:'pending', loading:false, reason:'' }
+};
+/* the active profile's data is reached through S.profile / S.habits / S.logs */
+const slot = () => S.all[S.pid] || (S.all[S.pid] = { profile:null, habits:[], logs:{} });
+Object.defineProperty(S, 'profile', { get: () => slot().profile, set: v => { slot().profile = v; } });
+Object.defineProperty(S, 'habits', { get: () => slot().habits, set: v => { slot().habits = v; } });
+Object.defineProperty(S, 'logs', { get: () => slot().logs, set: v => { slot().logs = v; } });
+const C = { db:null, uid:null, dl:null, dirty:new Set(), inflight:new Set(), failed:new Set(), known:new Set(), pend:new Set(), unsynced:new Set(), timer:0, lastPull:0 };
+const LS_PREFIX = 'naseej.v1:';
+const LS_ACTIVE = 'naseej.active:';
+const LS_THEME = 'naseej.theme';
+const lsKey = () => LS_PREFIX + (C.uid || 'local');
+const colPath = () => 'users/' + C.uid + '/data';
+const activeKey = () => LS_ACTIVE + (C.uid || 'local');
+
+/* ================= normalisation ================= */
+function normAvatar(a) {
+  if (a && a.kind === 'image' && typeof a.value === 'string' && a.value.length < 250000 && IMG_RE.test(a.value)) return {kind:'image', value:a.value};
+  const v = a && a.kind === 'emoji' && a.value ? String(a.value).slice(0, 8) : AV_ICONS[0];
+  return {kind:'emoji', value:v};
+}
+function normTypes(list) {
+  let t = PROFILES.map(x => x.id).filter(id => (list || []).includes(id));
+  if (t.length > 1) t = t.filter(id => id !== 'custom');
+  return t.length ? t : ['custom'];
+}
+function toggleType(list, id) {
+  let t = [...(list || [])];
+  if (id === 'custom') t = t.includes('custom') ? [] : ['custom'];
+  else { t = t.filter(x => x !== 'custom'); t = t.includes(id) ? t.filter(x => x !== id) : [...t, id]; }
+  return PROFILES.map(x => x.id).filter(x => t.includes(x));
+}
+function typesLabel(list) {
+  const ts = PROFILES.filter(x => (list || []).includes(x.id) && x.id !== 'custom');
+  return ts.length ? ts.map(x => x.icon + ' ' + x.name).join('، ') : '🧶 مخصص';
+}
+/* suggested habits of the chosen types, each habit listed once under the first type that offers it */
+function suggestedFor(list) {
+  const seen = new Set(), out = [];
+  PROFILES.filter(x => (list || []).includes(x.id)).forEach(t => {
+    const hs = t.habits.filter(h => !seen.has(h.name));
+    hs.forEach(h => seen.add(h.name));
+    if (hs.length) out.push({ t, hs });
+  });
+  return out;
+}
+function findTpl(name) { for (const x of PROFILES) { const h = x.habits.find(y => y.name === name); if (h) return h; } return null; }
+const habitsCountText = n => n === 1 ? 'عادة واحدة' : n === 2 ? 'عادتان' : (n % 100 >= 3 && n % 100 <= 10) ? n + ' عادات' : n + ' عادة';
+function normProfile(p) {
+  if (!p || typeof p !== 'object') return null;
+  return {
+    name: String(p.name || '').slice(0, 40),
+    avatar: normAvatar(p.avatar),
+    types: normTypes(Array.isArray(p.types) ? p.types : (p.type ? [p.type] : [])),
+    goal: String(p.goal || '').slice(0, 80),
+    weekStart: [0, 1, 6].includes(+p.weekStart) ? +p.weekStart : 0,
+    hijri: p.hijri !== false,
+    created: KEY_RE.test(p.created) ? p.created : todayKey(),
+    createdAt: Number.isFinite(+p.createdAt) && +p.createdAt > 0 ? Math.round(+p.createdAt) : 0
+  };
+}
+function normHabit(h) {
+  if (!h || typeof h !== 'object' || !h.id || !String(h.name || '').trim()) return null;
+  let days = Array.isArray(h.days) ? [...new Set(h.days.map(Number).filter(d => d >= 0 && d <= 6 && Number.isInteger(d)))].sort((a, b) => a - b) : [...ALL];
+  if (!days.length) days = [...ALL];
+  return {
+    id: String(h.id).replace(/[^\w-]/g, '').slice(0, 40) || newId(),
+    name: String(h.name).trim().slice(0, 40),
+    icon: String(h.icon || '✨').slice(0, 8),
+    color: THREAD_IDS.includes(h.color) ? h.color : 'madder',
+    kind: h.kind === 'count' ? 'count' : 'check',
+    target: Math.min(999, Math.max(1, parseInt(h.target, 10) || 1)),
+    unit: String(h.unit || '').trim().slice(0, 16),
+    days,
+    time: TIME_NAME[h.time] ? h.time : 'any',
+    start: KEY_RE.test(h.start) ? h.start : todayKey(),
+    archived: !!h.archived
+  };
+}
+function normLogs(L) {
+  const out = {};
+  if (!L || typeof L !== 'object') return out;
+  for (const [mk, days] of Object.entries(L)) {
+    if (!/^\d{4}-\d{2}$/.test(mk) || !days || typeof days !== 'object') continue;
+    for (const [k, vals] of Object.entries(days)) {
+      if (!KEY_RE.test(k) || monthOf(k) !== mk || !vals || typeof vals !== 'object') continue;
+      for (const [hid, v] of Object.entries(vals)) {
+        const n = Math.round(+v);
+        if (n > 0 && isFinite(n)) {
+          const m = out[mk] || (out[mk] = {});
+          (m[k] || (m[k] = {}))[hid] = Math.min(9999, n);
+        }
+      }
+    }
+  }
+  return out;
+}
+function normSlot(o) {
+  return {
+    profile: normProfile(o && o.profile),
+    habits: Array.isArray(o && o.habits) ? o.habits.map(normHabit).filter(Boolean) : [],
+    logs: normLogs(o && o.logs)
+  };
+}
+
+/* ================= profiles ================= */
+function profilesList() {
+  return Object.entries(S.all).filter(([, d]) => d && d.profile)
+    .sort((a, b) => (a[1].profile.createdAt || 0) - (b[1].profile.createdAt || 0) || (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0));
+}
+const allSnapshot = () => profilesList().map(([pid, d]) => [pid, d.profile, d.habits, d.logs]);
+function withPid(pid, fn) { const prev = S.pid; S.pid = pid; try { return fn(); } finally { S.pid = prev; } }
+function randPid(taken) { let id; do { id = 'p' + Math.random().toString(36).slice(2, 8).padEnd(6, '0'); } while (taken[id]); return id; }
+const newPid = () => randPid(S.all);
+function pickActive(fromStorage) {
+  const valid = id => !!(id && PID_RE.test(id) && S.all[id] && S.all[id].profile);
+  let stored = null;
+  try { stored = localStorage.getItem(activeKey()); } catch (e) {}
+  if (!fromStorage && valid(S.pid)) return;
+  if (valid(stored)) { S.pid = stored; return; }
+  if (valid(S.pid)) return;
+  const list = profilesList();
+  S.pid = list.length ? list[0][0] : 'main';
+}
+function setActive(pid) {
+  S.pid = pid;
+  try { localStorage.setItem(activeKey(), pid); } catch (e) {}
+  Object.assign(S.ui, { tab:'today', day:todayKey(), follow:true, month:monthOf(todayKey()), stat:'all', pdraft:null, bandPrev:null, bandIntro:false, archOpen:false, sel:{} });
+}
+function nextAvatar() {
+  const used = new Set(profilesList().map(([, d]) => d.profile.avatar && d.profile.avatar.value));
+  return AV_ICONS.find(e => !used.has(e)) || AV_ICONS[0];
+}
+const profilesCountText = n => n === 1 ? 'بروفايل واحد' : n === 2 ? 'بروفايلان' : n + ' بروفايلات';
+
+/* ================= habit logic ================= */
+const active = () => S.habits.filter(h => !h.archived);
+const targetOf = h => h.kind === 'count' ? Math.max(1, +h.target || 1) : 1;
+function getVal(k, hid) { const m = S.logs[monthOf(k)]; const d = m && m[k]; return (d && +d[hid]) || 0; }
+function setVal(k, hid, v) {
+  const mk = monthOf(k);
+  const m = S.logs[mk] || (S.logs[mk] = {});
+  const d = m[k] || (m[k] = {});
+  if (v > 0) d[hid] = v; else delete d[hid];
+  if (!Object.keys(d).length) delete m[k];
+  if (!Object.keys(m).length) delete S.logs[mk];
+  persist(['log-' + mk]);
+}
+const isSched = (h, k) => k >= h.start && h.days.includes(dowOf(k));
+const fracOf = (h, k) => Math.min(1, getVal(k, h.id) / targetOf(h));
+const isDone = (h, k) => getVal(k, h.id) >= targetOf(h);
+function dayStats(k, list) {
+  const sched = (list || active()).filter(h => isSched(h, k));
+  let done = 0, sum = 0;
+  sched.forEach(h => { const f = fracOf(h, k); sum += f; if (f >= 1) done++; });
+  return { n: sched.length, done, ratio: sched.length ? sum / sched.length : 0, sched };
+}
+function streakOf(h) {
+  let k = todayKey();
+  if (isSched(h, k) && !isDone(h, k)) k = addDays(k, -1);
+  let n = 0, guard = 0;
+  while (k >= h.start && guard++ < 4000) {
+    if (h.days.includes(dowOf(k))) { if (isDone(h, k)) n++; else break; }
+    k = addDays(k, -1);
+  }
+  return n;
+}
+function bestStreakOf(h) {
+  const t = todayKey();
+  let k = h.start, run = 0, best = 0, guard = 0;
+  while (k <= t && guard++ < 4000) {
+    if (h.days.includes(dowOf(k))) {
+      if (isDone(h, k)) { run++; if (run > best) best = run; }
+      else if (k !== t) run = 0;
+    }
+    k = addDays(k, 1);
+  }
+  return best;
+}
+function rangeRate(list, from, to) {
+  let n = 0, sum = 0, k = from, guard = 0;
+  while (k <= to && guard++ < 400) {
+    list.forEach(h => { if (isSched(h, k)) { n++; sum += fracOf(h, k); } });
+    k = addDays(k, 1);
+  }
+  return n ? sum / n : null;
+}
+function habitFromTpl(t) {
+  return normHabit({ id:newId(), name:t.name, icon:t.icon, color:t.color, kind:t.kind || 'check', target:t.target || 1,
+    unit:t.unit || '', days:t.days || ALL, time:t.time || 'any', start:todayKey(), archived:false });
+}
+function pickColor() {
+  const used = {};
+  active().forEach(h => { used[h.color] = (used[h.color] || 0) + 1; });
+  return THREAD_IDS.reduce((b, c) => (used[c] || 0) < (used[b] || 0) ? c : b, THREAD_IDS[0]);
+}
+
+/* ================= saving ================= */
+function saveLocal() {
+  try {
+    const profiles = {};
+    profilesList().forEach(([pid, d]) => { profiles[pid] = { profile:d.profile, habits:d.habits, logs:d.logs }; });
+    const uns = C.uid ? [...C.unsynced] : [];
+    if (!Object.keys(profiles).length && !uns.length) localStorage.removeItem(lsKey());
+    else localStorage.setItem(lsKey(), JSON.stringify({ v:2, profiles, unsynced:uns }));
+  } catch (e) {}
+}
+let saveT = 0;
+function saveLocalSoon() { clearTimeout(saveT); saveT = setTimeout(saveLocal, 400); }
+function loadLocal() {
+  try {
+    const raw = localStorage.getItem(lsKey());
+    if (raw) {
+      const o = JSON.parse(raw);
+      const all = {};
+      if (o && o.v === 2 && o.profiles && typeof o.profiles === 'object') {
+        for (const [pid, d] of Object.entries(o.profiles)) { if (!PID_RE.test(pid)) continue; const sl = normSlot(d); if (sl.profile) all[pid] = sl; }
+        if (Array.isArray(o.unsynced)) C.unsynced = new Set(o.unsynced.filter(x => typeof x === 'string' && x.length < 80));
+      } else if (o && o.profile) {
+        const sl = normSlot(o);
+        if (sl.profile) all.main = sl;
+      }
+      S.all = all;
+    }
+  } catch (e) {}
+  pickActive(true);
+}
+/* cloud documents: the original single profile keeps plain ids (profile, habits, log-YYYY-MM); others are prefixed with their id */
+const docId = (pid, kind) => pid === 'main' ? kind : pid + '_' + kind;
+function parseDocId(id) { const i = id.indexOf('_'); return i < 0 ? { pid:'main', kind:id } : { pid:id.slice(0, i), kind:id.slice(i + 1) }; }
+function docIdsOf(pid) {
+  const d = S.all[pid];
+  return ['profile', 'habits', ...Object.keys((d && d.logs) || {}).map(m => 'log-' + m)].map(k => docId(pid, k));
+}
+const docIdsAll = () => profilesList().flatMap(([pid]) => docIdsOf(pid));
+function docData(id) {
+  const { pid, kind } = parseDocId(id);
+  const d = S.all[pid];
+  if (!d || !d.profile) return null;
+  if (kind === 'profile') return d.profile;
+  if (kind === 'habits') return { list: d.habits };
+  if (kind.startsWith('log-')) { const m = d.logs[kind.slice(4)]; return m && Object.keys(m).length ? { days: m } : null; }
+  return null;
+}
+function persist(kinds) { persistIds(kinds.map(k => docId(S.pid, k))); }
+function persistIds(ids) {
+  if (C.uid) ids.forEach(id => C.unsynced.add(id));
+  saveLocal();
+  if (S.sync.mode !== 'cloud' || !C.db) return;
+  if (S.sync.loading) { ids.forEach(id => C.pend.add(id)); return; }
+  ids.forEach(id => C.dirty.add(id));
+  C.failed.forEach(id => C.dirty.add(id));
+  C.failed.clear();
+  scheduleFlush(700);
+}
+function scheduleFlush(ms) { clearTimeout(C.timer); C.timer = setTimeout(flush, ms); setStatus(); }
+function flush() {
+  if (S.sync.mode !== 'cloud' || !C.db) return;
+  for (const id of [...C.dirty]) {
+    if (C.inflight.has(id)) continue;
+    C.dirty.delete(id);
+    C.inflight.add(id);
+    writeDoc(id).then(() => {
+      C.inflight.delete(id);
+      if (C.dirty.has(id)) scheduleFlush(250);
+      setStatus();
+    });
+  }
+  setStatus();
+}
+const normCode = e => String((e && e.code) || '').replace(/^(auth|firestore)\//, '').replace(/-/g, '_');
+async function writeDoc(id, attempt = 0) {
+  if (S.sync.mode !== 'cloud' || !C.db) return false;
+  const uid = C.uid;
+  const data = docData(id);
+  try {
+    const ref = C.db.doc(colPath() + '/' + id);
+    if (data == null) { if (C.known.has(id)) await ref.delete(); if (C.uid === uid) C.known.delete(id); }
+    else { await ref.set(clone(data)); if (C.uid === uid) C.known.add(id); }
+    if (C.uid !== uid) return true;
+    C.failed.delete(id);
+    if (!C.dirty.has(id)) { C.unsynced.delete(id); saveLocalSoon(); }
+    return true;
+  } catch (e) {
+    if (C.uid !== uid) return false;
+    const code = normCode(e);
+    if (code === 'unavailable' && attempt < 1) { await sleep(500 + Math.random() * 1000); return writeDoc(id, attempt + 1); }
+    if (['permission_denied', 'unauthenticated', 'invalid_argument'].includes(code)) useLocal('denied', true);
+    else {
+      C.failed.add(id);
+      if (code === 'resource_exhausted') toast('تعذّر الحفظ في الحساب الآن، والبيانات محفوظة على هذا الجهاز');
+    }
+    return false;
+  }
+}
+function retrySync() {
+  C.failed.forEach(id => C.dirty.add(id));
+  C.failed.clear();
+  scheduleFlush(50);
+}
+async function pullAll() {
+  const snap = await C.db.collection(colPath()).get();
+  const raw = {};
+  const known = new Set();
+  snap.docs.forEach(d => {
+    if (!d.exists) return;
+    known.add(d.id);
+    const { pid, kind } = parseDocId(d.id);
+    if (!PID_RE.test(pid)) return;
+    const data = clone(d.data()) || {};
+    const r = raw[pid] || (raw[pid] = { profile:null, habits:[], logs:{} });
+    if (kind === 'profile') r.profile = data;
+    else if (kind === 'habits') r.habits = Array.isArray(data.list) ? data.list : [];
+    else if (kind.startsWith('log-') && data.days) r.logs[kind.slice(4)] = data.days;
+  });
+  const all = {};
+  for (const [pid, r] of Object.entries(raw)) { const sl = normSlot(r); if (sl.profile) all[pid] = sl; }
+  C.known = known;
+  C.lastPull = Date.now();
+  return { all };
+}
+function mergeServer(server) {
+  const pend = C.pend;
+  if (Object.keys(server.all).length) {
+    const pids = new Set([...Object.keys(server.all), ...Object.keys(S.all)]);
+    const next = {};
+    pids.forEach(pid => {
+      const sv = server.all[pid], lc = S.all[pid];
+      const isP = kind => pend.has(docId(pid, kind));
+      const sl = { profile:null, habits:[], logs:{} };
+      sl.profile = isP('profile') ? (lc ? lc.profile : null) : (sv ? sv.profile : null);
+      sl.habits = isP('habits') ? (lc ? lc.habits : []) : (sv ? sv.habits : []);
+      const months = new Set([...Object.keys((sv && sv.logs) || {}), ...Object.keys((lc && lc.logs) || {})]);
+      months.forEach(mk => {
+        if (isP('log-' + mk)) { if (lc && lc.logs[mk]) sl.logs[mk] = lc.logs[mk]; }
+        else if (sv && sv.logs[mk]) sl.logs[mk] = sv.logs[mk];
+      });
+      if (sl.profile) next[pid] = sl;
+    });
+    S.all = next;
+    pend.forEach(x => C.dirty.add(x));
+    S.ui.pdraft = null;
+  } else if (profilesList().length) {
+    docIdsAll().forEach(x => C.dirty.add(x));
+  }
+  pend.clear();
+  if (!S.ui.ob) pickActive(true);
+}
+function setStatus() {
+  const el = $('#status');
+  if (!el) return;
+  let cls, html;
+  const m = S.sync.mode;
+  if (m === 'pending' || S.sync.loading) { cls = 'is-saving'; html = 'جارٍ التحميل…'; }
+  else if (m === 'local') { cls = 'is-local'; html = 'محفوظ على الجهاز'; }
+  else if (C.dirty.size || C.inflight.size) { cls = 'is-saving'; html = 'جارٍ الحفظ…'; }
+  else if (C.failed.size) { cls = 'is-error'; html = '<button type="button" data-act="retry">تعذّر الحفظ، إعادة المحاولة</button>'; }
+  else { cls = 'is-cloud'; html = 'محفوظ في حسابك'; }
+  el.className = 'status ' + cls;
+  el.innerHTML = '<i aria-hidden="true"></i>' + html;
+}
+function storageNote() {
+  if (S.sync.mode === 'cloud') return 'تُحفظ بياناتك في حسابك، فتجدها على أي جهاز تسجّل الدخول منه. ويمكن أيضاً تنزيل نسخة احتياطية للاحتفاظ بها على جهازك.';
+  if (FB.user) return 'تعذّر الوصول إلى حسابك الآن، لذلك تُحفظ التغييرات على هذا المتصفح، وتُرفع إلى حسابك تلقائياً عند عودة الاتصال.';
+  return 'تُحفظ بياناتك على هذا المتصفح فقط. لنقلها إلى جهاز أو متصفح آخر تكفي النسخة الاحتياطية: تنزيلها من هنا ثم استعادتها هناك. مسح بيانات المتصفح يحذفها، لذلك يُفضّل تنزيل نسخة احتياطية من وقت لآخر.';
+}
+const obStorageNote = () => S.sync.mode === 'cloud' ? 'يُحفظ البروفايل في حسابك.' : (S.sync.mode === 'local' ? 'يُحفظ البروفايل على هذا المتصفح.' : '');
+
+/* ================= theme ================= */
+function getTheme() { try { const v = localStorage.getItem(LS_THEME); return v === 'light' || v === 'dark' ? v : 'auto'; } catch (e) { return 'auto'; } }
+function applyTheme(v) { const r = document.documentElement; if (v === 'light' || v === 'dark') r.setAttribute('data-theme', v); else r.removeAttribute('data-theme'); }
+function setTheme(v) { try { localStorage.setItem(LS_THEME, v); } catch (e) {} applyTheme(v); }
+
+/* ================= weave graphics ================= */
+function buildDefs() {
+  const H = 64, W = 32;
+  let p = `<pattern id="wv-warp" patternUnits="userSpaceOnUse" width="8" height="${H}"><rect width="8" height="${H}" class="wp-bg"/><rect width="8" height="5" class="wp-edge"/><rect y="${H - 5}" width="8" height="5" class="wp-edge"/><line x1="4" x2="4" y1="5" y2="${H - 5}" class="wp-line"/></pattern>`;
+  for (const c of THREAD_IDS) {
+    p += `<pattern id="wv-${c}" class="c-${c}" patternUnits="userSpaceOnUse" width="${W}" height="${H}">` +
+      `<rect width="${W}" height="${H}" class="th-fill"/>` +
+      `<rect width="${W}" height="5" class="wv-edge"/><rect y="${H - 5}" width="${W}" height="5" class="wv-edge"/>` +
+      `<rect y="8" width="${W}" height="2" class="wv-motif"/><rect y="${H - 10}" width="${W}" height="2" class="wv-motif"/>` +
+      `<polygon points="0,10 16,10 8,18" class="wv-edge"/><polygon points="16,10 32,10 24,18" class="wv-edge"/>` +
+      `<polygon points="0,${H - 10} 16,${H - 10} 8,${H - 18}" class="wv-edge"/><polygon points="16,${H - 10} 32,${H - 10} 24,${H - 18}" class="wv-edge"/>` +
+      `<polygon points="16,21 27,32 16,43 5,32" class="wv-motif"/><polygon points="16,27.5 20.5,32 16,36.5 11.5,32" class="wv-edge"/>` +
+      `<polygon points="0,27 5,32 0,37" class="wv-motif"/><polygon points="32,27 27,32 32,37" class="wv-motif"/>` +
+      `</pattern>`;
+  }
+  $('#defs-host').innerHTML = `<svg width="0" height="0" focusable="false"><defs>${p}</defs></svg>`;
+}
+function bandSvg(items, opts) {
+  opts = opts || {};
+  const H = 64, n = items.length;
+  let s = `<svg class="band${opts.complete ? ' is-full' : ''}" width="100%" height="${H}" role="img" aria-label="${esc(opts.label || '')}" focusable="false"><rect width="100%" height="${H}" fill="url(#wv-warp)"/>`;
+  if (n) {
+    const w = 100 / n;
+    items.forEach((it, i) => {
+      const f = it.f, R = 100 - i * w;
+      if (f > 0) s += `<rect class="weft" data-id="${esc(it.id)}" data-f="${r2(f)}" data-r="${r2(R)}" data-w="${r2(w)}" x="${r2(R - w * f)}%" y="0" width="${r2(w * f)}%" height="${H}" fill="url(#wv-${it.color})"/>`;
+    });
+    for (let i = 1; i < n; i++) { const x = r2(100 - i * w); s += `<line class="band-sep" x1="${x}%" x2="${x}%" y1="0" y2="${H}"/>`; }
+  }
+  return s + '</svg>';
+}
+function animateBand(svg, prevMap) {
+  if (!svg || reduceMotion()) return;
+  svg.querySelectorAll('.weft').forEach((r, idx) => {
+    const f = +r.dataset.f, R = +r.dataset.r, W = +r.dataset.w;
+    const f0 = prevMap ? (prevMap[r.dataset.id] || 0) : 0;
+    if (f0 >= f) return;
+    const delay = prevMap ? 0 : idx * 110;
+    const dur = prevMap ? 420 : 620;
+    const set = cur => { r.setAttribute('x', r2(R - W * cur) + '%'); r.setAttribute('width', r2(W * cur) + '%'); };
+    set(f0);
+    const t0 = performance.now() + delay;
+    const step = now => {
+      let p = Math.min(1, Math.max(0, (now - t0) / dur));
+      p = 1 - Math.pow(1 - p, 3);
+      set(f0 + (f - f0) * p);
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  });
+}
+function miniDia(ratio, n, past) {
+  let a;
+  if (!n || !past) a = '<circle cx="7" cy="7" r="1.3" class="md-off"/>';
+  else if (ratio >= 1) a = dia(7, 7, 6, 'md-fill') + dia(7, 7, 2.2, 'md-eye');
+  else if (ratio > 0) a = dia(7, 7, 6, 'md-miss') + dia(7, 7, 1.8 + 3.6 * ratio, 'md-fill');
+  else a = dia(7, 7, 6, 'md-miss');
+  return `<svg viewBox="0 0 14 14" aria-hidden="true" focusable="false">${a}</svg>`;
+}
+function strandSvg(h, k) {
+  const N = 7, CW = 13, W = N * CW, H = 14, t = todayKey();
+  let s = `<svg class="strand" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true" focusable="false">`;
+  for (let i = 0; i < N; i++) {
+    const d = addDays(k, -(N - 1 - i));
+    const cx = W - (i + 0.5) * CW, cy = H / 2;
+    if (!isSched(h, d)) { s += `<circle cx="${r2(cx)}" cy="${cy}" r="1.3" class="st-off"/>`; continue; }
+    const f = fracOf(h, d);
+    if (f >= 1) s += dia(cx, cy, 5.2, 'th-fill');
+    else if (f > 0) s += dia(cx, cy, 5.2, 'st-miss') + dia(cx, cy, Math.max(1.6, 5.2 * f), 'th-fill');
+    else s += dia(cx, cy, 5.2, d === t ? 'st-pend' : 'st-miss');
+  }
+  return s + '</svg>';
+}
+function togSvg(h, f, v, done) {
+  const isC = h.kind === 'count';
+  const cid = 'tc-' + h.id;
+  const top = r2(3 + 40 * (1 - f));
+  return `<svg viewBox="0 0 46 46" aria-hidden="true" focusable="false">` +
+    (f > 0 ? `<defs><clipPath id="${cid}"><rect x="0" y="${top}" width="46" height="${r2(46 - top)}"/></clipPath></defs>` : '') +
+    `<polygon points="23,3 43,23 23,43 3,23" class="t-out"/>` +
+    (f > 0 ? `<polygon points="23,3 43,23 23,43 3,23" class="t-fill" clip-path="url(#${cid})"/>` : '') +
+    (done && !isC ? '<path d="M15 23.5l5.5 5.5 10.5-11" class="t-chk"/>' : '') +
+    (isC ? `<text x="23" y="27.5" text-anchor="middle" class="t-num${f >= 0.55 ? ' on' : ''}">${v}</text>` : '') +
+    `</svg>`;
+}
+function avatarHtml(av, cls) {
+  if (av && av.kind === 'image' && IMG_RE.test(av.value)) return `<span class="av ${cls}"><img src="${esc(av.value)}" alt=""></span>`;
+  return `<span class="av ${cls}" aria-hidden="true">${esc((av && av.value) || AV_ICONS[0])}</span>`;
+}
+function avatarPicker(av, ns) {
+  return `<div class="emoji-grid" role="group" aria-label="رموز الصورة">${AV_ICONS.map((e, i) => `<button type="button" class="emo" data-act="${ns}-emoji" data-v="${e}" data-fk="${ns}-emoji-${i}" aria-pressed="${av.kind === 'emoji' && av.value === e}">${e}</button>`).join('')}</div>
+    <div class="avp-actions"><button type="button" class="btn btn-ghost btn-sm" data-act="${ns}-upload" data-fk="${ns}-upload">${SV.image}رفع صورة من جهازك</button>${av.kind === 'image' ? `<button type="button" class="btn btn-ghost btn-sm" data-act="${ns}-noimg" data-fk="${ns}-noimg">إزالة الصورة</button>` : ''}</div>`;
+}
+function typeCard(t, sel, act) {
+  return `<button type="button" class="type" data-act="${act}" data-v="${t.id}" data-fk="${act}-${t.id}" aria-pressed="${(sel || []).includes(t.id)}"><span class="t-ico" aria-hidden="true">${t.icon}</span><span class="t-name">${t.name}</span><span class="t-desc">${t.desc}</span></button>`;
+}
+
+/* ================= views ================= */
+function viewLoading() {
+  return `<div class="loading"><div>${LOGO}<p>جارٍ تحميل بياناتك…</p></div></div>`;
+}
+function viewShell() {
+  const tabs = [['today','اليوم'], ['habits','العادات'], ['stats','الإحصائيات'], ['profile','البروفايل']];
+  const p = S.profile;
+  return `<header class="top"><div class="top-start"><div class="brand">${LOGO}<span class="brand-txt">نسيج</span></div><button type="button" class="pchip" data-act="profiles" data-fk="pchip" aria-haspopup="dialog" aria-label="${esc('البروفايل الحالي: ' + p.name + '. تبديل البروفايل أو إضافة بروفايل')}">${avatarHtml(p.avatar, 'av-s')}<span class="pchip-name">${esc(p.name)}</span>${SV.chev}</button></div><div class="status" id="status"></div></header>
+  <nav class="tabs" aria-label="الأقسام">${tabs.map(([id, nm]) => `<button type="button" class="tab" data-act="tab" data-v="${id}" data-fk="tab-${id}"${S.ui.tab === id ? ' aria-current="page"' : ''}>${TAB_ICON[id]}<span>${nm}</span></button>`).join('')}</nav>
+  <main class="view" id="view">${viewTab()}${ownerFooter()}</main>`;
+}
+function viewTab() {
+  switch (S.ui.tab) {
+    case 'habits': return viewHabits();
+    case 'stats': return viewStats();
+    case 'profile': return viewProfile();
+    default: return viewToday();
+  }
+}
+
+function viewToday() {
+  const p = S.profile, t = todayKey(), k = S.ui.day, isT = k === t;
+  const list = active(), ds = dayStats(k, list);
+  const hr = new Date().getHours();
+  const greet = (hr >= 4 && hr < 12) ? 'صباح الخير' : 'مساء الخير';
+  const hij = (p.hijri && F_HIJRI) ? fmtK(F_HIJRI, k) : '';
+  const complete = ds.n > 0 && ds.done === ds.n;
+  let cap = '';
+  if (list.length) {
+    if (!ds.n) cap = '';
+    else if (complete) cap = isT ? 'اكتمل نسيج اليوم' : 'اكتمل نسيج هذا اليوم';
+    else cap = (isT ? 'أنجزت ' : 'أُنجز ') + ds.done + ' من ' + ds.n;
+  }
+  const ordered = TIMES.flatMap(([id]) => ds.sched.filter(x => x.time === id));
+  const items = ordered.map(x => ({ id:x.id, color:x.color, f:fracOf(x, k) }));
+  const label = ds.n ? `نسيج ${isT ? 'اليوم' : 'هذا اليوم'}: ${ds.done} من ${ds.n} عادات مكتملة` : 'نسيج فارغ';
+  let html = `<section class="hello"><button type="button" class="hello-av" data-act="profiles" data-fk="hello-av" aria-label="تبديل البروفايل">${avatarHtml(p.avatar, 'av-m')}</button><div><p class="greet">${greet}،</p><h1 class="name">${esc(p.name)}</h1></div></section>`;
+  html += `<div class="dates"><span>${esc(fmtK(F_DAY, k))}</span>${hij ? `<span class="hijri">${esc(hij)}</span>` : ''}${isT ? '' : '<button type="button" class="back-today" data-act="go-today" data-fk="go-today">العودة إلى اليوم</button>'}</div>`;
+  if (p.goal) html += `<p class="goal">«${esc(p.goal)}»</p>`;
+  html += `<div class="band-wrap">${bandSvg(items, {complete, label})}${cap ? `<div class="band-cap"><strong>${cap}</strong><span>${Math.round(ds.ratio * 100)}٪</span></div>` : ''}</div>`;
+  html += weekStrip(k);
+  if (!list.length) {
+    html += `<div class="empty"><p>البداية بعادة واحدة صغيرة تكفي.</p><button type="button" class="btn btn-primary" data-act="add-habit">${SV.plus}إضافة عادة</button></div>`;
+  } else if (!ds.n) {
+    html += `<div class="empty"><p>${isT ? 'لا عادات مجدولة اليوم.' : 'لا عادات مجدولة في هذا اليوم.'}</p></div>`;
+  } else {
+    const groups = TIMES.map(([id, nm]) => ({ nm, items: ordered.filter(x => x.time === id) })).filter(g => g.items.length);
+    const heads = groups.length > 1;
+    html += `<div class="groups">${groups.map(g => `${heads ? `<h2 class="ghead">${g.nm}</h2>` : ''}<ul class="hlist">${g.items.map(x => habitRow(x, k)).join('')}</ul>`).join('')}</div>`;
+  }
+  return html;
+}
+function weekStrip(k) {
+  const t = todayKey();
+  const ws = S.profile.weekStart || 0;
+  const start = addDays(k, -((dowOf(k) - ws + 7) % 7));
+  const days = Array.from({length:7}, (_, i) => addDays(start, i));
+  const prev = addDays(k, -7);
+  const nextStart = addDays(start, 7);
+  const canNext = nextStart <= t;
+  const next = canNext ? (addDays(k, 7) > t ? t : addDays(k, 7)) : '';
+  const list = active();
+  return `<div class="week"><button type="button" class="wk-nav" data-act="day" data-k="${prev}" data-fk="wk-prev" aria-label="الأسبوع السابق">${SV.prev}</button>
+  <ol class="wk-days">${days.map(d => {
+    const sel = d === k, past = d <= t;
+    const ds = past ? dayStats(d, list) : { n:0, done:0, ratio:0 };
+    const lab = fmtK(F_DAY, d) + (past && ds.n ? `، ${ds.done} من ${ds.n}` : '');
+    return `<li><button type="button" class="wd${sel ? ' is-sel' : ''}${d === t ? ' is-today' : ''}" data-act="day" data-k="${d}" data-fk="wd-${d}" aria-label="${esc(lab)}"${sel ? ' aria-current="date"' : ''}${past ? '' : ' disabled'}><span class="wd-i" aria-hidden="true">${DAY_INIT[dowOf(d)]}</span><span class="wd-n" aria-hidden="true">${parseKey(d).getDate()}</span>${miniDia(ds.ratio, ds.n, past)}</button></li>`;
+  }).join('')}</ol>
+  <button type="button" class="wk-nav" data-act="day" data-k="${next}" data-fk="wk-next" aria-label="الأسبوع التالي"${canNext ? '' : ' disabled'}>${SV.next}</button></div>`;
+}
+function habitRow(h, k) {
+  const v = getVal(k, h.id), T = targetOf(h), f = Math.min(1, v / T), done = v >= T, isC = h.kind === 'count';
+  const st = streakOf(h);
+  let meta = '';
+  if (isC) meta += `<span class="cnt">${v} / ${T}${h.unit ? ' ' + esc(h.unit) : ''}</span>`;
+  if (st > 0) meta += `<span class="streak" title="السلسلة الحالية">${SV.flame}${daysAr(st)}</span>`;
+  if (isC && v > 0) meta += `<button type="button" class="minus" data-act="dec" data-id="${h.id}" data-fk="dec-${h.id}" aria-label="إنقاص واحد من ${esc(h.name)}">−1</button>`;
+  const label = isC ? `إضافة واحد إلى ${h.name}، المسجّل ${v} من ${T}` : `إنجاز ${h.name}`;
+  return `<li class="hrow c-${h.color}${done ? ' is-done' : ''}">
+    <button type="button" class="tog" data-act="tap" data-id="${h.id}" data-fk="tap-${h.id}" aria-label="${esc(label)}"${isC ? '' : ` aria-pressed="${done}"`}>${togSvg(h, f, v, done)}</button>
+    <div class="h-main"><p class="h-name"><span class="h-ico" aria-hidden="true">${esc(h.icon)}</span><span class="h-txt">${esc(h.name)}</span></p><p class="h-meta">${meta}</p></div>
+    ${strandSvg(h, k)}
+  </li>`;
+}
+
+function viewHabits() {
+  const list = active(), arch = S.habits.filter(h => h.archived);
+  let html = `<section class="pane"><div class="pane-head"><h1 class="h2">عاداتك</h1><button type="button" class="btn btn-primary" data-act="add-habit" data-fk="add-habit">${SV.plus}إضافة عادة</button></div>`;
+  if (list.length) {
+    html += `<ul class="hlist">${list.map((h, i) => `<li class="mrow c-${h.color}">
+      <span class="m-ico" aria-hidden="true">${esc(h.icon)}</span>
+      <div class="m-main"><p class="m-name">${esc(h.name)}</p><p class="m-meta">${esc(habitMeta(h))}</p></div>
+      <div class="m-act">
+        <button type="button" class="ibtn" data-act="up" data-id="${h.id}" data-fk="up-${h.id}" aria-label="تحريك ${esc(h.name)} لأعلى"${i === 0 ? ' disabled' : ''}>${SV.up}</button>
+        <button type="button" class="ibtn" data-act="down" data-id="${h.id}" data-fk="down-${h.id}" aria-label="تحريك ${esc(h.name)} لأسفل"${i === list.length - 1 ? ' disabled' : ''}>${SV.down}</button>
+        <button type="button" class="btn btn-ghost btn-sm" data-act="edit-habit" data-id="${h.id}" data-fk="edit-${h.id}" aria-label="تعديل ${esc(h.name)}">تعديل</button>
+      </div></li>`).join('')}</ul>`;
+  } else {
+    html += `<div class="empty"><p>لا عادات بعد. البداية بعادة واحدة صغيرة تكفي.</p></div>`;
+  }
+  if (arch.length) {
+    html += `<details class="arch"${S.ui.archOpen ? ' open' : ''}><summary data-act="arch-toggle">العادات المؤرشفة (${arch.length})</summary><ul class="hlist">${arch.map(h => `<li class="mrow">
+      <span class="m-ico" aria-hidden="true">${esc(h.icon)}</span>
+      <div class="m-main"><p class="m-name">${esc(h.name)}</p><p class="m-meta">مؤرشفة</p></div>
+      <div class="m-act"><button type="button" class="btn btn-ghost btn-sm" data-act="restore" data-id="${h.id}" data-fk="restore-${h.id}">استعادة</button><button type="button" class="btn btn-danger btn-sm" data-act="purge" data-id="${h.id}" data-fk="purge-${h.id}">حذف نهائي</button></div></li>`).join('')}</ul></details>`;
+  }
+  return html + '</section>';
+}
+
+function rugCell(k, L, t) {
+  const day = parseKey(k).getDate();
+  if (k > t) return `<div class="rc is-future" aria-hidden="true"><span class="rc-n">${day}</span></div>`;
+  const ds = dayStats(k, L);
+  let art = '';
+  if (ds.n) {
+    if (ds.done === ds.n) art = dia(20, 20, 17, 'th-fill') + dia(20, 20, 6, 'rc-eye');
+    else if (ds.ratio > 0) art = dia(20, 20, 4.5 + 10 * ds.ratio, 'th-fill');
+    else art = dia(20, 20, 5, 'st-miss');
+  }
+  const label = fmtK(F_DATE, k) + '، ' + (ds.n ? `${ds.done} من ${ds.n}` : 'لا عادات مجدولة');
+  return `<button type="button" class="rc${k === t ? ' is-today' : ''}" data-act="goto-day" data-k="${k}" data-fk="rc-${k}" aria-label="${esc(label)}"><span class="rc-n" aria-hidden="true">${day}</span><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false">${art}</svg></button>`;
+}
+/* ================= charts ================= */
+const RANGES = [['d7','أسبوع'], ['d30','شهر'], ['w12','3 أشهر']];
+function getRange() { try { const v = localStorage.getItem('naseej.range'); return RANGES.some(r => r[0] === v) ? v : 'd7'; } catch (e) { return 'd7'; } }
+function setRange(v) { try { localStorage.setItem('naseej.range', v); } catch (e) {} }
+const pct = v => Math.round(v * 100) + '٪';
+const pointsAr = n => n === 1 ? 'نقطة واحدة' : n === 2 ? 'نقطتان' : (n % 100 >= 3 && n % 100 <= 10) ? n + ' نقاط' : n + ' نقطة';
+const shortDate = k => { const d = parseKey(k); return d.getDate() + '/' + (d.getMonth() + 1); };
+function dayInfo(k, ds, single, cur) {
+  let s;
+  if (!ds.n) s = single ? 'غير مجدولة' : 'لا عادات مجدولة';
+  else if (single) s = ds.ratio >= 1 ? 'مكتملة' : ds.ratio > 0 ? 'إنجاز جزئي ' + pct(ds.ratio) : 'لم تكتمل';
+  else s = `${ds.done} من ${ds.n}، ${pct(ds.ratio)}`;
+  return `${fmtK(F_DAY, k)}: ${s}${cur ? ' (حتى الآن)' : ''}`;
+}
+/* complete periods + the current one (shown striped and kept out of the averages until it ends) */
+function perfData(L, range) {
+  const t = todayKey(), single = L.length === 1;
+  if (range === 'w12') {
+    const ws = S.profile.weekStart || 0;
+    const cs = addDays(t, -((dowOf(t) - ws + 7) % 7));
+    const items = [];
+    for (let w = 12; w >= 0; w--) {
+      const from = addDays(cs, -7 * w), to = w === 0 ? t : addDays(from, 6), cur = w === 0;
+      const v = rangeRate(L, from, to);
+      items.push({ v, cur, lab: w % 2 === 0 ? shortDate(from) : '',
+        info: `أسبوع ${fmtK(F_DATE, from)}: ${v == null ? 'لا عادات مجدولة' : pct(v)}${cur ? ' (الأسبوع الحالي، حتى الآن)' : ''}` });
+    }
+    return { items, line:null, avg: rangeRate(L, addDays(cs, -84), addDays(cs, -1)), prev: rangeRate(L, addDays(cs, -168), addDays(cs, -85)),
+      avgLabel:'متوسط آخر 12 أسبوعاً', prevLabel:'عن الأسابيع الاثني عشر قبلها' };
+  }
+  const N = range === 'd30' ? 30 : 7;
+  const items = [], line = [];
+  for (let i = N; i >= 0; i--) {
+    const k = addDays(t, -i), ds = dayStats(k, L), cur = i === 0, d = parseKey(k);
+    items.push({ v: ds.n ? ds.ratio : null, cur,
+      lab: N === 7 ? DAY_INIT[d.getDay()] : (i % 5 === 0 ? String(d.getDate()) : ''),
+      lab2: N === 7 ? String(d.getDate()) : '',
+      info: dayInfo(k, ds, single, cur) });
+    if (N === 30) line.push(cur ? null : rangeRate(L, addDays(k, -6), k));
+  }
+  return { items, line: N === 30 ? line : null,
+    avg: rangeRate(L, addDays(t, -N), addDays(t, -1)), prev: rangeRate(L, addDays(t, -2 * N), addDays(t, -N - 1)),
+    avgLabel: N === 7 ? 'متوسط آخر 7 أيام' : 'متوسط آخر 30 يوماً', prevLabel: N === 7 ? 'عن الأيام السبعة قبلها' : 'عن الثلاثين يوماً قبلها' };
+}
+function weekdayData(L) {
+  const t = todayKey(), sum = [0, 0, 0, 0, 0, 0, 0], cnt = [0, 0, 0, 0, 0, 0, 0];
+  for (let i = 1; i <= 56; i++) {
+    const k = addDays(t, -i), dw = dowOf(k);
+    L.forEach(h => { if (isSched(h, k)) { cnt[dw]++; sum[dw] += fracOf(h, k); } });
+  }
+  return orderDays(S.profile.weekStart || 0).map(dw => ({ dw, v: cnt[dw] ? sum[dw] / cnt[dw] : null }));
+}
+function barChart(id, items, opts) {
+  const n = items.length;
+  let sel = S.ui.sel[id];
+  if (!(sel >= 0 && sel < n)) sel = opts.defSel >= 0 && opts.defSel < n ? opts.defSel : n - 1;
+  const bars = items.map((it, i) => {
+    const c = ['cbar'];
+    if (it.v == null) c.push('is-none'); else if (it.v <= 0) c.push('is-zero'); else if (it.v >= 1) c.push('is-full');
+    if (it.cur) c.push('is-cur');
+    if (it.best) c.push('is-best');
+    if (i === sel) c.push('is-sel');
+    return `<button type="button" class="${c.join(' ')}" style="--v:${it.v == null ? 0 : r2(Math.min(1, it.v))}" data-act="bar" data-chart="${id}" data-i="${i}" tabindex="${i === sel ? 0 : -1}" aria-label="${esc(it.info)}"><i></i></button>`;
+  }).join('');
+  const labs = items.map(it => `<span>${it.lab ? `<em>${esc(it.lab)}</em>` : ''}${it.lab2 ? `<em>${esc(it.lab2)}</em>` : ''}</span>`).join('');
+  let line = '';
+  if (opts.line) {
+    const segs = [];
+    let run = [];
+    opts.line.forEach((v, i) => {
+      if (v == null) { if (run.length) segs.push(run); run = []; }
+      else run.push(`${r2(n - i - 0.5)},${r2(100 - Math.min(1, v) * 100)}`);
+    });
+    if (run.length) segs.push(run);
+    line = `<svg class="ch-line" viewBox="0 0 ${n} 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">${segs.filter(sg => sg.length > 1).map(sg => `<polyline points="${sg.join(' ')}"/>`).join('')}</svg>`;
+  }
+  return `<div class="chart${n > 14 ? ' dense' : ''}" style="--h:${opts.h}px">
+    <div class="ch-y" aria-hidden="true"><span style="top:0">100٪</span><span style="top:50%">50٪</span><span style="top:100%">0٪</span></div>
+    <div class="ch-plot"><div class="ch-grid" aria-hidden="true"><i></i><i></i><i></i></div><div class="ch-bars" role="group" aria-label="${esc(opts.label + '، التنقل بين الأعمدة بالأسهم')}" data-chart="${id}">${bars}</div>${line}</div>
+    <span aria-hidden="true"></span><div class="ch-x" aria-hidden="true">${labs}</div>
+  </div><p class="ch-info" id="info-${id}" aria-live="polite">${esc(items[sel] ? items[sel].info : '')}</p>`;
+}
+function selectBar(id, i, focus) {
+  const wrap = document.querySelector(`.ch-bars[data-chart="${id}"]`);
+  if (!wrap) return;
+  const bars = wrap.querySelectorAll('.cbar');
+  if (!(i >= 0 && i < bars.length)) return;
+  bars.forEach((b, j) => { b.classList.toggle('is-sel', j === i); b.tabIndex = j === i ? 0 : -1; });
+  S.ui.sel[id] = i;
+  const info = document.getElementById('info-' + id);
+  if (info) info.textContent = bars[i].getAttribute('aria-label');
+  if (focus) bars[i].focus();
+}
+function perfSection(L, thread) {
+  const range = getRange(), isW = range === 'w12';
+  const d = perfData(L, range), n = d.items.length;
+  const defSel = n >= 2 && d.items[n - 2].v != null ? n - 2 : n - 1;
+  const chart = barChart('perf', d.items, { h:170, line:d.line, defSel, label: isW ? 'متوسط الإنجاز لكل أسبوع' : 'نسبة الإنجاز لكل يوم' });
+  let delta = '—', dCls = '', dLab = 'لا توجد فترة سابقة للمقارنة';
+  if (d.avg != null && d.prev != null) {
+    const x = Math.round((d.avg - d.prev) * 100);
+    delta = x > 0 ? '↑ ' + pointsAr(x) : x < 0 ? '↓ ' + pointsAr(-x) : 'بلا تغيير';
+    dCls = x > 0 ? 'up' : x < 0 ? 'down' : '';
+    dLab = d.prevLabel;
+  }
+  const avgLab = d.avg == null ? (isW ? 'يظهر المتوسط بعد أول أسبوع مكتمل' : 'يظهر المتوسط بعد أول يوم مكتمل') : d.avgLabel;
+  return `<div class="c-${thread}">
+    <div class="perf-head"><h2 class="h3">أداؤك عبر الوقت</h2><div class="seg seg--sm" role="group" aria-label="مدة الرسم">${RANGES.map(([v, nm]) => `<button type="button" data-act="perf-range" data-v="${v}" data-fk="perf-${v}" aria-pressed="${range === v}">${nm}</button>`).join('')}</div></div>
+    ${chart}
+    <div class="ch-legend" aria-hidden="true"><span><i></i>${isW ? 'متوسط الأسبوع' : 'إنجاز اليوم'}</span>${d.line ? '<span><i class="ln"></i>متوسط 7 أيام</span>' : ''}<span><i class="st"></i>${isW ? 'الأسبوع الحالي' : 'اليوم الحالي'}، خارج المتوسط حتى ينتهي</span></div>
+    <div class="sums sums--2"><div class="sum"><b>${d.avg == null ? '—' : pct(d.avg)}</b><span>${avgLab}</span></div><div class="sum"><b class="${dCls}">${delta}</b><span>${dLab}</span></div></div>
+  </div>`;
+}
+function weekdaySection(L, thread) {
+  const data = weekdayData(L);
+  const vals = data.filter(x => x.v != null);
+  let best = null, worst = null;
+  vals.forEach(x => { if (!best || x.v > best.v) best = x; if (!worst || x.v < worst.v) worst = x; });
+  const spread = vals.length > 1 && best.v - worst.v >= 0.05;
+  const items = data.map(x => ({ v:x.v, lab:DAY_SHORT[x.dw], best: spread && x === best,
+    info: `${DAY_NAMES[x.dw]}: ${x.v == null ? 'لا بيانات بعد' : pct(x.v) + ' في المتوسط'}` }));
+  let sum;
+  if (vals.length < 2) sum = 'يتضح هذا الرسم بعد أسبوع أو أكثر من التتبع.';
+  else if (!spread) sum = 'أداؤك متقارب في كل أيام الأسبوع.';
+  else sum = `أقوى أيامك ${DAY_NAMES[best.dw]} (${pct(best.v)})، وأضعفها ${DAY_NAMES[worst.dw]} (${pct(worst.v)}).`;
+  return `<div class="wd-sec c-${thread}"><h2 class="h3">أداؤك حسب أيام الأسبوع</h2><p class="note">حسب آخر 8 أسابيع.</p>
+    ${barChart('wd', items, { h:120, defSel: best ? data.indexOf(best) : 0, label:'متوسط الإنجاز لكل يوم من أيام الأسبوع' })}
+    <p class="note">${sum}</p></div>`;
+}
+
+function viewStats() {
+  const t = todayKey(), cur = monthOf(t), list = active();
+  if (!list.length) return `<section class="pane"><h1 class="h2">الإحصائيات</h1><div class="empty"><p>تظهر الإحصائيات والرسوم البيانية بعد إضافة أول عادة.</p><button type="button" class="btn btn-primary" data-act="add-habit">${SV.plus}إضافة عادة</button></div></section>`;
+  if (S.ui.stat !== 'all' && !list.some(h => h.id === S.ui.stat)) S.ui.stat = 'all';
+  const selH = S.ui.stat === 'all' ? null : list.find(h => h.id === S.ui.stat);
+  const L = selH ? [selH] : list;
+  const earliest = monthOf(list.reduce((m, h) => h.start < m ? h.start : m, t));
+  let mk = S.ui.month;
+  if (mk > cur) mk = cur;
+  if (mk < earliest) mk = earliest;
+  S.ui.month = mk;
+  const first = mk + '-01', nDays = daysIn(mk), last = mk + '-' + pad(nDays);
+  const ws = S.profile.weekStart || 0;
+  const lead = (dowOf(first) - ws + 7) % 7;
+  let cells = orderDays(ws).map(d => `<div class="rug-h" aria-hidden="true">${DAY_INIT[d]}</div>`).join('');
+  for (let i = 0; i < lead; i++) cells += '<div class="rc rc-blank" aria-hidden="true"></div>';
+  let perfect = 0, schedDays = 0;
+  for (let d = 1; d <= nDays; d++) {
+    const k = mk + '-' + pad(d);
+    cells += rugCell(k, L, t);
+    if (k <= t) { const ds = dayStats(k, L); if (ds.n) { schedDays++; if (ds.done === ds.n) perfect++; } }
+  }
+  const to = last < t ? last : t;
+  const rate = first <= to ? rangeRate(L, first, to) : null;
+  const pc = rate == null ? '—' : Math.round(rate * 100) + '٪';
+  let sums;
+  if (selH) {
+    sums = [[pc, 'نسبة الإنجاز في هذا الشهر'], [`${perfect} من ${schedDays}`, 'أيام الإنجاز'], [daysAr(streakOf(selH)), 'السلسلة الحالية']];
+  } else {
+    let best = null;
+    list.forEach(h => { const s = streakOf(h); if (!best || s > best.s) best = { s, h }; });
+    sums = [[pc, 'نسبة الإنجاز في هذا الشهر'], [`${perfect} من ${schedDays}`, 'أيام مكتملة'], [best && best.s ? daysAr(best.s) : '0', 'أطول سلسلة حالية', best && best.s ? `${esc(best.h.icon)} ${esc(best.h.name)}` : '']];
+  }
+  const from30 = addDays(t, -29);
+  const rows = list.map(h => {
+    const r = rangeRate([h], from30 > h.start ? from30 : h.start, t);
+    const p30 = r == null ? 0 : Math.round(r * 100);
+    return `<tr class="c-${h.color}"><td><span class="ht-name"><span aria-hidden="true">${esc(h.icon)}</span><span>${esc(h.name)}</span></span></td><td>${streakOf(h)}</td><td>${bestStreakOf(h)}</td><td>${p30}٪<span class="bar" aria-hidden="true"><i style="width:${p30}%"></i></span></td></tr>`;
+  }).join('');
+  const thread = selH ? selH.color : 'madder';
+  return `<section class="pane">
+    <h1 class="h2">الإحصائيات</h1>
+    <div class="chips" role="group" aria-label="عرض حسب العادة" style="margin-top:12px"><button type="button" data-act="stat" data-v="all" data-fk="stat-all" aria-pressed="${!selH}">كل العادات</button>${list.map(h => `<button type="button" data-act="stat" data-v="${h.id}" data-fk="stat-${h.id}" aria-pressed="${!!selH && selH.id === h.id}"><span aria-hidden="true">${esc(h.icon)}</span>${esc(h.name)}</button>`).join('')}</div>
+    ${perfSection(L, thread)}
+    <div class="mnav"><button type="button" class="ibtn" data-act="m-prev" data-fk="m-prev" aria-label="الشهر السابق"${mk <= earliest ? ' disabled' : ''}>${SV.prev}</button><h2 class="h2">${esc(fmtMonth(mk))}</h2><button type="button" class="ibtn" data-act="m-next" data-fk="m-next" aria-label="الشهر التالي"${mk >= cur ? ' disabled' : ''}>${SV.next}</button></div>
+    <div class="rug c-${thread}">${cells}</div>
+    <div class="legend c-${thread}" aria-hidden="true"><span><svg viewBox="0 0 40 40">${dia(20, 20, 6, 'st-miss')}</svg>لم يُنجز</span><span><svg viewBox="0 0 40 40">${dia(20, 20, 10, 'th-fill')}</svg>إنجاز جزئي</span><span><svg viewBox="0 0 40 40">${dia(20, 20, 17, 'th-fill')}${dia(20, 20, 6, 'rc-eye')}</svg>يوم مكتمل</span></div>
+    <div class="sums c-${thread}">${sums.map(([b, s, sub]) => `<div class="sum"><b>${b}</b><span>${s}</span>${sub ? `<span class="sum-sub">${sub}</span>` : ''}</div>`).join('')}</div>
+    ${weekdaySection(L, thread)}
+    <h2 class="h3">تفاصيل العادات</h2>
+    <table class="htable"><caption class="sr-only">السلسلة الحالية وأفضل سلسلة ونسبة الإنجاز في آخر 30 يوماً لكل عادة</caption>
+      <colgroup><col><col class="c-num"><col class="c-num"><col class="c-pc"></colgroup>
+      <thead><tr><th scope="col">العادة</th><th scope="col">السلسلة</th><th scope="col">الأفضل</th><th scope="col">آخر 30 يوماً</th></tr></thead>
+      <tbody>${rows}</tbody></table>
+  </section>`;
+}
+
+function viewProfile() {
+  const p = S.profile;
+  const d = S.ui.pdraft || (S.ui.pdraft = clone(p));
+  const changed = JSON.stringify(d) !== JSON.stringify(p);
+  const have = new Set(active().map(h => h.name));
+  const groups = suggestedFor(d.types).map(g => ({ t:g.t, hs:g.hs.filter(h => !have.has(h.name)) })).filter(g => g.hs.length);
+  const nSugg = groups.reduce((n, g) => n + g.hs.length, 0);
+  const theme = getTheme();
+  return `<section class="pane">
+    <h1 class="h2">البروفايل</h1>
+    <div class="pf-id">${avatarHtml(d.avatar, 'av-l')}<div><p class="pf-name" id="pf-preview">${esc(d.name || 'بلا اسم')}</p><p class="muted" id="pf-types">${esc(typesLabel(d.types))}</p></div></div>
+    <div class="pf-switch"><p>${profilesCountText(profilesList().length)} ${S.sync.mode === 'cloud' ? 'في حسابك' : 'على هذا المتصفح'}</p><button type="button" class="btn btn-ghost btn-sm" data-act="profiles" data-fk="pf-switch">${SV.users}تبديل أو إضافة بروفايل</button></div>
+    <label class="field"><span class="lbl">الاسم</span><input class="inp" id="pf-name" data-fk="pf-name" type="text" maxlength="40" autocomplete="nickname" value="${esc(d.name)}"></label>
+    <div class="field"><span class="lbl">الصورة</span>${avatarPicker(d.avatar, 'pf')}</div>
+    <div class="section"><h3>البروفايل المناسب لك</h3><p class="note" style="margin-bottom:10px">يمكن اختيار أكثر من نوع لنفس البروفايل، وكل نوع يقترح عاداته.</p>
+      <div class="types" role="group" aria-label="أنواع البروفايل">${PROFILES.map(x => typeCard(x, d.types, 'pf-type')).join('')}</div>
+      ${nSugg ? `<div class="sugg-head"><p class="note">عادات مقترحة من الأنواع المختارة:</p>${nSugg > 1 ? `<button type="button" class="btn btn-primary btn-sm" data-act="pf-add-all" data-fk="pf-add-all">${SV.plus}إضافة الكل (${nSugg})</button>` : ''}</div>` + groups.map(g => `<p class="pick-head">${g.t.icon} ${g.t.name}</p><ul class="picks">${g.hs.map(h => `<li class="pick"><span class="h-ico" aria-hidden="true">${h.icon}</span><span class="p-txt"><span>${esc(h.name)}</span><span class="p-meta">${esc(habitMeta(h))}</span></span><button type="button" class="btn btn-ghost btn-sm" data-act="pf-add" data-name="${esc(h.name)}" data-fk="pf-add-${esc(h.name)}" aria-label="إضافة ${esc(h.name)}">إضافة</button></li>`).join('')}</ul>`).join('') : ''}
+    </div>
+    <div class="section"><h3>هدفك</h3><label class="field" style="margin-top:0"><span class="sr-only">هدفك</span><input class="inp" id="pf-goal" data-fk="pf-goal" type="text" maxlength="80" placeholder="مثال: أنام مبكراً وأقرأ كل يوم" value="${esc(d.goal)}"></label></div>
+    <div class="section"><h3>التقويم</h3>
+      <fieldset><legend class="lbl">بداية الأسبوع</legend><div class="seg">${[6, 0, 1].map(w => `<button type="button" data-act="pf-week" data-v="${w}" data-fk="pf-week-${w}" aria-pressed="${d.weekStart === w}">${DAY_NAMES[w]}</button>`).join('')}</div></fieldset>
+      <label class="switch"><input type="checkbox" id="pf-hijri" data-fk="pf-hijri"${d.hijri ? ' checked' : ''}><span>إظهار التاريخ الهجري</span></label>
+    </div>
+    <div class="savebar${changed ? ' is-dirty' : ''}" id="savebar"><p id="savebar-msg">${changed ? 'تغييرات غير محفوظة' : 'البروفايل محفوظ'}</p><button type="button" class="btn btn-primary" data-act="pf-save" data-fk="pf-save"${changed ? '' : ' disabled'}>حفظ البروفايل</button></div>
+    <div class="section"><h3>المظهر</h3><div class="seg">${[['auto','حسب الجهاز'], ['light','فاتح'], ['dark','داكن']].map(([v, n]) => `<button type="button" data-act="theme" data-v="${v}" data-fk="theme-${v}" aria-pressed="${theme === v}">${n}</button>`).join('')}</div></div>
+    ${FB.user ? `<div class="section"><h3>الحساب</h3><p class="note">الحساب الحالي: <bdi dir="ltr">${esc(FB.user.email || FB.user.displayName || '')}</bdi></p><div class="row-btns"><button type="button" class="btn btn-ghost btn-sm" data-act="sign-out" data-fk="sign-out">تسجيل الخروج</button></div></div>` : ''}
+    <div class="section"><h3>حفظ البيانات</h3><p class="note">${storageNote()}</p>
+      <div class="row-btns"><button type="button" class="btn btn-ghost btn-sm" data-act="export" data-fk="export">${SV.download}تنزيل نسخة احتياطية</button><button type="button" class="btn btn-ghost btn-sm" data-act="import" data-fk="import">${SV.upload}استعادة من نسخة احتياطية</button></div>
+    </div>
+    <div class="section about"><h3>حول الموقع</h3><dl><dt>الموقع</dt><dd>نسيج لتتبّع العادات، الإصدار 1.1</dd><dt>المالك</dt><dd><bdi>${esc(OWNER_NAME)}</bdi></dd><dt>الحقوق</dt><dd>© ${OWNER_YEAR} جميع الحقوق محفوظة</dd><dt>معرّف الملكية</dt><dd><bdi dir="ltr">${OWNERSHIP_ID}</bdi></dd></dl></div>
+    <div class="danger"><button type="button" class="btn btn-danger btn-sm" data-act="del-profile" data-fk="del-profile">حذف هذا البروفايل</button>${FB.user ? '<button type="button" class="btn btn-danger btn-sm" data-act="del-account" data-fk="del-account">حذف الحساب</button>' : ''}</div>
+  </section>`;
+}
+function updateSaveBar() {
+  const bar = $('#savebar');
+  if (!bar || !S.ui.pdraft) return;
+  const ch = JSON.stringify(S.ui.pdraft) !== JSON.stringify(S.profile);
+  bar.classList.toggle('is-dirty', ch);
+  $('#savebar-msg').textContent = ch ? 'تغييرات غير محفوظة' : 'البروفايل محفوظ';
+  bar.querySelector('button').disabled = !ch;
+}
+
+function viewOnboarding() {
+  const ob = S.ui.ob || (S.ui.ob = { step:1, name:'', avatar:{kind:'emoji', value:AV_ICONS[0]}, types:[], picks:{}, goal:'', weekStart:0, hijri:true });
+  const sample = ['madder', 'saffron', 'indigo', 'olive', 'teal', 'plum'].map((c, i) => ({ id:'s' + i, color:c, f:1 }));
+  let body;
+  if (ob.step === 1) {
+    body = `<h1 class="ob-title">${ob.adding ? 'بروفايل جديد' : 'بروفايلك'}</h1>
+      <p class="ob-lead">${ob.adding ? 'لكل بروفايل عاداته وسجله الخاص داخل نفس الحساب. البداية بالاسم والصورة.' : 'كل يوم التزام بعاداتك يضيف صفاً جديداً إلى نسيجك. البداية بالاسم والصورة.'}</p>
+      <div class="ob-av">${avatarHtml(ob.avatar, 'av-l')}</div>
+      <label class="field"><span class="lbl">الاسم</span><input class="inp" id="ob-name" data-fk="ob-name" type="text" maxlength="40" autocomplete="given-name" placeholder="الاسم الذي يظهر في الترحيب" value="${esc(ob.name)}"></label>
+      <p class="err" id="ob-err" role="alert"></p>
+      <div class="field"><span class="lbl">الصورة</span>${avatarPicker(ob.avatar, 'ob')}</div>
+      <div class="ob-actions">${ob.adding ? '<button type="button" class="btn btn-ghost" data-act="ob-cancel" data-fk="ob-cancel">إلغاء</button>' : ''}<button type="button" class="btn btn-primary" data-act="ob-next" data-fk="ob-next">التالي</button></div>`;
+  } else if (ob.step === 2) {
+    const groups = suggestedFor(ob.types);
+    let picks = '';
+    if (ob.types.length) {
+      picks = groups.length
+        ? `<p class="note" style="margin-top:18px">العادات المقترحة، ويمكن إلغاء أي منها:</p>` + groups.map(g => `<p class="pick-head">${g.t.icon} ${g.t.name}</p><ul class="picks">${g.hs.map(h => `<li><button type="button" class="pick" data-act="ob-pick" data-name="${esc(h.name)}" data-fk="ob-pick-${esc(h.name)}" aria-pressed="${ob.picks[h.name] !== false}"><span class="box">${SV.check}</span><span class="h-ico" aria-hidden="true">${h.icon}</span><span class="p-txt"><span>${esc(h.name)}</span><span class="p-meta">${esc(habitMeta(h))}</span></span></button></li>`).join('')}</ul>`).join('')
+        : `<p class="note" style="margin-top:18px">تبدأ القائمة فارغة، وتُضاف العادات من قسم «العادات» بعد الحفظ.</p>`;
+    }
+    body = `<h1 class="ob-title">البروفايل المناسب لك</h1>
+      <p class="ob-lead">يمكن اختيار أكثر من نوع، مثل دراسة ولياقة معاً. كل نوع يقترح عاداته، ويمكن تعديلها لاحقاً.</p>
+      <div class="types" role="group" aria-label="أنواع البروفايل" style="margin-top:20px">${PROFILES.map(x => typeCard(x, ob.types, 'ob-type')).join('')}</div>
+      ${picks}
+      <p class="err" id="ob-err" role="alert"></p>
+      <div class="ob-actions"><button type="button" class="btn btn-ghost" data-act="ob-back" data-fk="ob-back">رجوع</button><button type="button" class="btn btn-primary" data-act="ob-next" data-fk="ob-next">التالي</button></div>`;
+  } else {
+    body = `<h1 class="ob-title">لمسات أخيرة</h1>
+      <p class="ob-lead">هدف قصير يظهر تحت اسمك كل يوم، وتفضيلات التقويم.</p>
+      <label class="field"><span class="lbl">هدفك (اختياري)</span><input class="inp" id="ob-goal" data-fk="ob-goal" type="text" maxlength="80" placeholder="مثال: أنام مبكراً وأقرأ كل يوم" value="${esc(ob.goal)}"></label>
+      <fieldset class="field"><legend class="lbl">بداية الأسبوع</legend><div class="seg">${[6, 0, 1].map(w => `<button type="button" data-act="ob-week" data-v="${w}" data-fk="ob-week-${w}" aria-pressed="${ob.weekStart === w}">${DAY_NAMES[w]}</button>`).join('')}</div></fieldset>
+      <label class="switch"><input type="checkbox" id="ob-hijri" data-fk="ob-hijri"${ob.hijri ? ' checked' : ''}><span>إظهار التاريخ الهجري</span></label>
+      <div class="ob-actions"><button type="button" class="btn btn-ghost" data-act="ob-back" data-fk="ob-back">رجوع</button><button type="button" class="btn btn-primary" data-act="ob-finish" data-fk="ob-finish">حفظ البروفايل والبدء</button></div>
+      <p class="note ob-note" id="ob-note">${obStorageNote()}</p>`;
+  }
+  return `<div class="ob"><div class="ob-brand">${LOGO}<span>نسيج</span></div>${bandSvg(sample, {label:'نسيج من ستة خيوط ملونة'})}<p class="ob-step">الخطوة ${ob.step} من 3</p>${body}${ownerFooter()}</div>`;
+}
+
+/* ================= ownership mark ================= */
+const ownerFooter = () => `<footer class="owner">© ${OWNER_YEAR} <bdi><b>${esc(OWNER_NAME)}</b></bdi>. جميع الحقوق محفوظة.<br>نسيج لتتبّع العادات</footer>`;
+function applyWatermark() {
+  const el = document.getElementById('wm');
+  if (!el) return;
+  const ar = /[؀-ۿ]/.test(OWNER_NAME);
+  const raw = ar ? '© ' + OWNER_NAME + ' ' + OWNER_YEAR : '© ' + OWNER_YEAR + ' ' + OWNER_NAME;
+  const tw = raw.length * 9;
+  const W = Math.max(300, Math.round(tw * 0.93 * 2 + 80)), H = Math.max(170, Math.round((tw * 0.375 + 16) * 2 + 60));
+  const t = esc(raw);
+  const txt = (x, y) => `<text x="${x}" y="${y}" text-anchor="middle" direction="${ar ? 'rtl' : 'ltr'}" transform="rotate(-22 ${x} ${y})" font-family="Tahoma, 'Segoe UI', 'Geeza Pro', Arial, sans-serif" font-size="15" font-weight="700" fill="#6F625A">${t}</text>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">${txt(Math.round(W / 4), Math.round(H / 4) + 6)}${txt(Math.round(3 * W / 4), Math.round(3 * H / 4) + 6)}</svg>`;
+  el.style.backgroundImage = `url("data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}")`;
+  el.style.backgroundSize = `${W}px ${H}px`;
+}
+
+/* ================= sign-in screen ================= */
+function viewAuth() {
+  const a = S.ui.auth, up = a.mode === 'signup', off = !AUTH_ON, dis = a.busy || off ? ' disabled' : '';
+  const sample = ['madder', 'saffron', 'indigo', 'olive', 'teal', 'plum'].map((c, i) => ({ id:'s' + i, color:c, f:1 }));
+  const head = `<div class="ob-brand">${LOGO}<span>نسيج</span></div>${bandSvg(sample, { label:'نسيج من ستة خيوط ملونة' })}`;
+  if (a.fatal) return `<div class="ob auth">${head}<h1 class="ob-title">تعذّر الاتصال</h1><p class="ob-lead">تعذّر تحميل خدمة تسجيل الدخول. يلزم الاتصال بالإنترنت ثم إعادة تحميل الصفحة.</p><div class="ob-actions"><button type="button" class="btn btn-primary" data-act="reload">إعادة التحميل</button></div>${ownerFooter()}</div>`;
+  return `<div class="ob auth">${head}
+    <h1 class="ob-title">${up ? 'إنشاء حساب' : 'تسجيل الدخول'}</h1>
+    <p class="ob-lead">${up ? 'حساب واحد يحفظ بروفايلاتك وعاداتك، فتجدها على أي جهاز.' : 'أهلاً بك. عاداتك وبروفايلاتك محفوظة في حسابك.'}</p>
+    ${off ? '<div class="au-setup"><b>تسجيل الدخول غير مفعّل بعد.</b> يلزم ربط الموقع بمشروع Firebase وإضافة إعداداته في أعلى ملف الموقع.</div>' : ''}
+    <button type="button" class="btn btn-ghost btn-block au-google" data-act="auth-google" data-fk="auth-google"${dis}>المتابعة بحساب Google</button>
+    <div class="au-or"><span>أو بالبريد الإلكتروني</span></div>
+    <label class="field"><span class="lbl">البريد الإلكتروني</span><input class="inp" id="au-email" data-fk="au-email" type="email" dir="ltr" autocomplete="email" inputmode="email" value="${esc(a.email)}"${off ? ' disabled' : ''}></label>
+    <label class="field"><span class="lbl">كلمة المرور${up ? ' (6 أحرف على الأقل)' : ''}</span><span class="pw"><input class="inp" id="au-pass" data-fk="au-pass" type="${a.showPw ? 'text' : 'password'}" dir="ltr" autocomplete="${up ? 'new-password' : 'current-password'}" value="${esc(AUTH_PW)}"${off ? ' disabled' : ''}><button type="button" class="pw-eye" data-act="auth-eye" data-fk="auth-eye" aria-label="${a.showPw ? 'إخفاء كلمة المرور' : 'إظهار كلمة المرور'}" aria-pressed="${a.showPw}">${a.showPw ? SV.eyeOff : SV.eye}</button></span></label>
+    <p class="err" id="au-err" role="alert">${esc(a.err)}</p>
+    ${a.info ? `<p class="au-info" role="status">${esc(a.info)}</p>` : ''}
+    <button type="button" class="btn btn-primary btn-block" data-act="auth-submit" data-fk="auth-submit"${dis}>${a.busy ? 'جارٍ التنفيذ…' : (up ? 'إنشاء الحساب' : 'تسجيل الدخول')}</button>
+    ${up ? '' : `<button type="button" class="linkbtn au-forgot" data-act="auth-reset" data-fk="auth-reset"${dis}>نسيت كلمة المرور؟</button>`}
+    <p class="au-switch">${up ? 'لديك حساب؟' : 'ليس لديك حساب؟'} <button type="button" class="linkbtn" data-act="auth-mode" data-fk="auth-mode">${up ? 'تسجيل الدخول' : 'إنشاء حساب'}</button></p>
+    ${off ? '<button type="button" class="btn btn-ghost btn-block" style="margin-top:18px" data-act="auth-skip" data-fk="auth-skip">تجربة الموقع بدون حساب</button>' : '<p class="note au-note">تُحفظ بيانات كل حساب بشكل منفصل على خوادم Firebase من Google.</p>'}
+    ${ownerFooter()}
+  </div>`;
+}
+
+/* ================= render ================= */
+function render() {
+  const ae = document.activeElement;
+  const fk = ae && ae.dataset ? ae.dataset.fk : null;
+  const app = $('#app');
+  if (S.sync.mode === 'auth') app.innerHTML = viewAuth();
+  else if (!S.profile) app.innerHTML = ((S.sync.mode === 'pending' || S.sync.loading) && !S.ui.ob) ? viewLoading() : viewOnboarding();
+  else app.innerHTML = viewShell();
+  afterRender();
+  if (fk) {
+    const el = app.querySelector(`[data-fk="${CSS.escape(fk)}"]`);
+    if (el && !el.disabled) { try { el.focus({ preventScroll:true }); } catch (e) {} }
+  }
+}
+function softRender() {
+  const ae = document.activeElement;
+  const typing = ae && (ae.tagName === 'INPUT' || ae.tagName === 'TEXTAREA') && ae.type !== 'checkbox' && $('#app').contains(ae);
+  if (typing && S.profile) { setStatus(); return; }
+  render();
+}
+function afterRender() {
+  setStatus();
+  const band = document.querySelector('#view .band');
+  if (band && S.ui.tab === 'today') {
+    const k = S.ui.day, prev = S.ui.bandPrev;
+    if (!S.ui.bandIntro) { S.ui.bandIntro = true; animateBand(band, null); }
+    else if (prev && prev.k === k) animateBand(band, prev.map);
+    const map = {};
+    band.querySelectorAll('.weft').forEach(r => { map[r.dataset.id] = +r.dataset.f; });
+    S.ui.bandPrev = { k, map };
+  }
+  const ob = document.querySelector('.ob .band');
+  if (ob && !S.ui.obIntro) { S.ui.obIntro = true; animateBand(ob, null); }
+  if (S.profile && S.ui.tab === 'stats') {
+    const pc = document.querySelector('.chips [aria-pressed="true"]');
+    if (pc && pc.scrollIntoView) { try { pc.scrollIntoView({ block:'nearest', inline:'nearest' }); } catch (e) {} }
+  }
+}
+let toastT = 0;
+function toast(msg) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastT);
+  toastT = setTimeout(() => t.classList.remove('show'), 2600);
+}
+function confirmBox(msg, okLabel) {
+  return new Promise(res => {
+    const d = $('#dlg-confirm');
+    d.innerHTML = `<div class="sheet"><p class="cf-msg">${esc(msg)}</p><div class="sheet-foot"><button type="button" class="btn btn-ghost" data-cf="0">إلغاء</button><button type="button" class="btn btn-primary" data-cf="1">${esc(okLabel)}</button></div></div>`;
+    let settled = false;
+    const done = v => { if (settled) return; settled = true; if (d.open) d.close(); res(v); };
+    d.onclick = e => { const b = e.target.closest('[data-cf]'); if (b) done(b.dataset.cf === '1'); else if (e.target === d) done(false); };
+    d.oncancel = e => { e.preventDefault(); done(false); };
+    d.showModal();
+    const c = d.querySelector('[data-cf="0"]');
+    if (c) c.focus();
+  });
+}
+
+/* ================= actions ================= */
+function tapHabit(id, dir) {
+  const h = S.habits.find(x => x.id === id);
+  if (!h) return;
+  const k = S.ui.day;
+  const before = dayStats(k);
+  const v = getVal(k, id);
+  const nv = h.kind === 'count' ? Math.max(0, v + dir) : (dir < 0 ? 0 : (v >= 1 ? 0 : 1));
+  setVal(k, id, nv);
+  render();
+  const after = dayStats(k);
+  if (k === todayKey() && after.n && after.done === after.n && before.done < before.n) toast('اكتمل نسيج اليوم. أحسنت!');
+}
+function moveHabit(id, d) {
+  const act = active();
+  const i = act.findIndex(h => h.id === id), j = i + d;
+  if (i < 0 || j < 0 || j >= act.length) return;
+  const a = S.habits.indexOf(act[i]), b = S.habits.indexOf(act[j]);
+  [S.habits[a], S.habits[b]] = [S.habits[b], S.habits[a]];
+  persist(['habits']);
+  render();
+}
+async function purgeHabit(id) {
+  const h = S.habits.find(x => x.id === id);
+  if (!h) return;
+  const ok = await confirmBox(`حذف «${h.name}» وكل سجلها نهائياً؟ لا يمكن التراجع عن هذا.`, 'حذف نهائي');
+  if (!ok) return;
+  S.habits = S.habits.filter(x => x.id !== id);
+  const touched = [];
+  for (const [mk, days] of Object.entries(S.logs)) {
+    let ch = false;
+    for (const [k, vals] of Object.entries(days)) {
+      if (Object.prototype.hasOwnProperty.call(vals, id)) { delete vals[id]; ch = true; if (!Object.keys(vals).length) delete days[k]; }
+    }
+    if (!Object.keys(days).length) delete S.logs[mk];
+    if (ch) touched.push('log-' + mk);
+  }
+  persist(['habits', ...touched]);
+  render();
+  toast('حُذفت العادة نهائياً');
+}
+function addSuggested(names) {
+  const have = new Set(active().map(h => h.name));
+  const added = [];
+  names.forEach(n => {
+    if (have.has(n)) return;
+    const tpl = findTpl(n);
+    const h = tpl && habitFromTpl(tpl);
+    if (h) { S.habits.push(h); have.add(n); added.push(n); }
+  });
+  if (!added.length) return;
+  const d = S.ui.pdraft;
+  const kinds = ['habits'];
+  if (d && JSON.stringify(normTypes(d.types)) !== JSON.stringify(S.profile.types)) {
+    S.profile.types = normTypes(d.types);
+    d.types = [...S.profile.types];
+    kinds.push('profile');
+  }
+  persist(kinds);
+  render();
+  toast(added.length === 1 ? `أُضيفت عادة «${added[0]}»` : `أُضيفت ${habitsCountText(added.length)}`);
+}
+function saveProfile() {
+  const d = S.ui.pdraft;
+  const name = String(d.name || '').trim();
+  if (!name) { toast('الاسم مطلوب لحفظ البروفايل'); const i = $('#pf-name'); if (i) i.focus(); return; }
+  d.name = name;
+  d.goal = String(d.goal || '').trim();
+  S.profile = normProfile(clone(d));
+  S.ui.pdraft = clone(S.profile);
+  persist(['profile']);
+  render();
+  toast('تم حفظ البروفايل');
+}
+
+/* ----- habit dialog ----- */
+let HD = null;
+function openHabit(id) {
+  const h = id ? S.habits.find(x => x.id === id) : null;
+  HD = { mode: h ? 'edit' : 'add', h: h ? clone(h) : { id:null, name:'', icon:'📖', color:pickColor(), kind:'check', target:8, unit:'', days:[...ALL], time:'any', start:todayKey(), archived:false } };
+  if (HD.h.kind !== 'count' && HD.h.target < 2) HD.h.target = 8;
+  const d = $('#dlg-habit');
+  renderHD();
+  if (!d.open) d.showModal();
+  const nameInp = $('#hd-name');
+  if (nameInp && !h) nameInp.focus();
+  else { const b = d.querySelector('.sheet-body'); if (b) b.scrollTop = 0; const c = d.querySelector('[data-act="hd-close"]'); if (c) c.focus(); }
+}
+function closeHabit() { const d = $('#dlg-habit'); if (d.open) d.close(); HD = null; }
+function renderHD(srcEl) {
+  const d = $('#dlg-habit');
+  const body = d.querySelector('.sheet-body');
+  const st = body ? body.scrollTop : 0;
+  const fk = srcEl && srcEl.dataset ? srcEl.dataset.fk : null;
+  d.innerHTML = habitDialogHtml();
+  const nb = d.querySelector('.sheet-body');
+  if (nb) nb.scrollTop = st;
+  if (fk) { const el = d.querySelector(`[data-fk="${CSS.escape(fk)}"]`); if (el) { try { el.focus({ preventScroll:true }); } catch (e) {} } }
+}
+function habitDialogHtml() {
+  const h = HD.h, add = HD.mode === 'add', isC = h.kind === 'count';
+  let sugg = '';
+  if (add) {
+    const have = new Set(active().map(x => x.name)), seen = new Set(), out = [];
+    const mine = new Set((S.profile && S.profile.types) || []);
+    PROFILES.map((p, pi) => ({ p, pi })).sort((a, b) => (mine.has(b.p.id) ? 1 : 0) - (mine.has(a.p.id) ? 1 : 0) || a.pi - b.pi).forEach(({ p, pi }) => p.habits.forEach((t, ti) => {
+      if (have.has(t.name) || seen.has(t.name)) return;
+      seen.add(t.name);
+      out.push(`<button type="button" data-act="hd-sugg" data-p="${pi}" data-i="${ti}" data-fk="hd-sugg-${pi}-${ti}"><span aria-hidden="true">${t.icon}</span>${esc(t.name)}</button>`);
+    }));
+    if (out.length) sugg = `<div class="field" style="margin-top:6px"><span class="lbl">اقتراحات سريعة</span><div class="sugg">${out.join('')}</div></div>`;
+  }
+  return `<div class="sheet">
+    <header class="sheet-head"><h2 id="hd-title">${add ? 'عادة جديدة' : 'تعديل العادة'}</h2><button type="button" class="ibtn" data-act="hd-close" aria-label="إغلاق">${SV.close}</button></header>
+    <div class="sheet-body">
+      ${sugg}
+      <label class="field"><span class="lbl">اسم العادة</span><input class="inp" id="hd-name" data-fk="hd-name" type="text" maxlength="40" autocomplete="off" placeholder="مثال: قراءة 10 صفحات" value="${esc(h.name)}"></label>
+      <fieldset class="field"><legend class="lbl">الرمز</legend><div class="emoji-grid">${HABIT_ICONS.map((x, i) => `<button type="button" class="emo" data-act="hd-icon" data-v="${x}" data-fk="hd-icon-${i}" aria-pressed="${x === h.icon}">${x}</button>`).join('')}</div></fieldset>
+      <fieldset class="field"><legend class="lbl">لون الخيط</legend><div class="swatches">${THREADS.map(([id, nm]) => `<button type="button" class="sw c-${id}" data-act="hd-color" data-v="${id}" data-fk="hd-color-${id}" aria-pressed="${id === h.color}" aria-label="${nm}" title="${nm}"></button>`).join('')}</div></fieldset>
+      <fieldset class="field"><legend class="lbl">طريقة التسجيل</legend><div class="seg">
+        <button type="button" data-act="hd-kind" data-v="check" data-fk="hd-kind-check" aria-pressed="${!isC}">إنجاز مرة واحدة</button>
+        <button type="button" data-act="hd-kind" data-v="count" data-fk="hd-kind-count" aria-pressed="${isC}">عدد مستهدف</button></div>
+        ${isC ? `<div class="row2"><label class="field"><span class="lbl">الهدف اليومي</span><input class="inp" id="hd-target" data-fk="hd-target" type="number" inputmode="numeric" min="1" max="999" value="${esc(h.target)}"></label><label class="field"><span class="lbl">الوحدة</span><input class="inp" id="hd-unit" data-fk="hd-unit" type="text" maxlength="16" placeholder="أكواب، صفحات…" value="${esc(h.unit)}"></label></div>` : ''}
+      </fieldset>
+      <fieldset class="field"><legend class="lbl">الأيام</legend>
+        <div class="presets"><button type="button" data-act="hd-days" data-v="all" data-fk="hd-days-all">كل يوم</button><button type="button" data-act="hd-days" data-v="work" data-fk="hd-days-work">من الأحد إلى الخميس</button><button type="button" data-act="hd-days" data-v="weekend" data-fk="hd-days-weekend">الجمعة والسبت</button></div>
+        <div class="seg seg--days">${orderDays(curWeekStart()).map(dd => `<button type="button" data-act="hd-day" data-v="${dd}" data-fk="hd-day-${dd}" aria-pressed="${h.days.includes(dd)}">${DAY_SHORT[dd]}</button>`).join('')}</div>
+      </fieldset>
+      <fieldset class="field"><legend class="lbl">وقت العادة</legend><div class="seg">${TIMES.map(([id, nm]) => `<button type="button" data-act="hd-time" data-v="${id}" data-fk="hd-time-${id}" aria-pressed="${h.time === id}">${nm}</button>`).join('')}</div></fieldset>
+      <p class="err" id="hd-err" role="alert"></p>
+    </div>
+    <footer class="sheet-foot">${add ? '' : '<button type="button" class="btn btn-ghost" data-act="hd-archive">أرشفة العادة</button>'}<button type="button" class="btn btn-primary" data-act="hd-save">حفظ العادة</button></footer>
+  </div>`;
+}
+function saveHabit() {
+  if (!HD) return;
+  const h = HD.h, err = $('#hd-err');
+  const name = String(h.name || '').trim();
+  if (!name) { err.textContent = 'اسم العادة مطلوب.'; const i = $('#hd-name'); if (i) i.focus(); return; }
+  if (!h.days.length) { err.textContent = 'يلزم اختيار يوم واحد على الأقل.'; return; }
+  if (h.kind === 'count') {
+    const tg = parseInt(h.target, 10);
+    if (!(tg >= 1 && tg <= 999)) { err.textContent = 'الهدف اليومي رقم من 1 إلى 999.'; const i = $('#hd-target'); if (i) i.focus(); return; }
+    h.target = tg;
+  }
+  h.name = name;
+  if (HD.mode === 'add') {
+    h.id = newId();
+    h.start = todayKey();
+    const n = normHabit(h);
+    if (n) S.habits.push(n);
+  } else {
+    const i = S.habits.findIndex(x => x.id === h.id);
+    const n = normHabit(h);
+    if (i >= 0 && n) S.habits[i] = n;
+  }
+  persist(['habits']);
+  closeHabit();
+  render();
+  toast('تم حفظ العادة');
+}
+function archiveHabit() {
+  if (!HD) return;
+  const h = S.habits.find(x => x.id === HD.h.id);
+  if (!h) return;
+  h.archived = true;
+  persist(['habits']);
+  closeHabit();
+  render();
+  toast('أُرشفت العادة، ويمكن استعادتها من قائمة العادات المؤرشفة');
+}
+
+/* ----- onboarding ----- */
+function obNext() {
+  const ob = S.ui.ob, err = $('#ob-err');
+  if (ob.step === 1 && !ob.name.trim()) { if (err) err.textContent = 'الاسم مطلوب للمتابعة.'; const i = $('#ob-name'); if (i) i.focus(); return; }
+  if (ob.step === 2 && !ob.types.length) { if (err) err.textContent = 'يلزم اختيار نوع واحد على الأقل للمتابعة.'; return; }
+  ob.step = Math.min(3, ob.step + 1);
+  render();
+  window.scrollTo(0, 0);
+}
+function obFinish() {
+  const ob = S.ui.ob;
+  if (!ob) return;
+  const name = ob.name.trim();
+  if (!name) { ob.step = 1; render(); return; }
+  const types = normTypes(ob.types);
+  if (!ob.adding) {
+    if (S.all[S.pid] && !S.all[S.pid].profile) delete S.all[S.pid];
+    S.pid = newPid();
+  }
+  S.profile = normProfile({ name, avatar:ob.avatar, types, goal:ob.goal.trim(), weekStart:ob.weekStart, hijri:ob.hijri, created:todayKey(), createdAt:Date.now() });
+  S.habits = suggestedFor(types).flatMap(g => g.hs).filter(h => ob.picks[h.name] !== false).map(habitFromTpl).filter(Boolean);
+  S.logs = {};
+  S.ui.ob = null;
+  setActive(S.pid);
+  persist(['profile', 'habits']);
+  render();
+  window.scrollTo(0, 0);
+  toast(ob.adding ? `تم إنشاء بروفايل «${name}»` : 'تم حفظ البروفايل');
+}
+
+/* ----- switching, adding and deleting profiles ----- */
+function profilesDialogHtml() {
+  const list = profilesList(), t = todayKey();
+  const rows = list.map(([pid, d]) => {
+    const st = withPid(pid, () => dayStats(t));
+    const isCur = pid === S.pid;
+    const prog = st.n ? `اليوم ${st.done} من ${st.n}` : 'لا عادات اليوم';
+    return `<li><button type="button" class="prow" data-act="switch" data-v="${pid}"${isCur ? ' aria-current="true"' : ''}>${avatarHtml(d.profile.avatar, 'av-p')}<span class="prow-txt"><span class="prow-name">${esc(d.profile.name)}</span><span class="prow-meta">${prog}، ${esc(typesLabel(d.profile.types))}</span></span>${isCur ? '<span class="prow-mark" aria-hidden="true"></span>' : ''}</button></li>`;
+  }).join('');
+  const canAdd = list.length < MAX_PROFILES;
+  const where = S.sync.mode === 'cloud' ? 'وكلها محفوظة في حسابك' : 'وكلها محفوظة على هذا المتصفح';
+  return `<div class="sheet">
+    <header class="sheet-head"><h2 id="pl-title">البروفايلات</h2><button type="button" class="ibtn" data-act="profiles-close" aria-label="إغلاق">${SV.close}</button></header>
+    <div class="sheet-body"><ul class="plist">${rows}</ul>
+      <p class="note" style="margin-top:12px">${canAdd ? `لكل بروفايل عاداته وسجله الخاص، ${where}.` : `وصل عدد البروفايلات إلى الحد الأعلى (${MAX_PROFILES}).`}</p></div>
+    <footer class="sheet-foot"><button type="button" class="btn btn-primary" data-act="add-profile"${canAdd ? '' : ' disabled'}>${SV.plus}إضافة بروفايل</button></footer>
+  </div>`;
+}
+function openProfiles() {
+  const d = $('#dlg-profiles');
+  d.innerHTML = profilesDialogHtml();
+  if (!d.open) d.showModal();
+  const c = d.querySelector('.prow[aria-current="true"]') || d.querySelector('.prow');
+  if (c) c.focus();
+}
+function closeProfiles() { const d = $('#dlg-profiles'); if (d.open) d.close(); }
+function switchProfile(pid) {
+  closeProfiles();
+  if (!pid || pid === S.pid || !S.all[pid] || !S.all[pid].profile) return;
+  setActive(pid);
+  render();
+  window.scrollTo(0, 0);
+  toast(`تم التبديل إلى بروفايل «${S.profile.name}»`);
+}
+function startAddProfile() {
+  closeProfiles();
+  if (profilesList().length >= MAX_PROFILES) return;
+  const base = S.profile;
+  S.ui.ob = { step:1, name:'', avatar:{ kind:'emoji', value:nextAvatar() }, types:[], picks:{}, goal:'',
+    weekStart: base ? base.weekStart : 0, hijri: base ? base.hijri : true, adding:true, prevPid:S.pid };
+  S.pid = newPid();
+  S.ui.obIntro = false;
+  render();
+  window.scrollTo(0, 0);
+  const i = $('#ob-name');
+  if (i) i.focus();
+}
+function cancelAddProfile() {
+  const ob = S.ui.ob;
+  if (!ob || !ob.adding) return;
+  if (S.all[S.pid] && !S.all[S.pid].profile) delete S.all[S.pid];
+  S.pid = ob.prevPid;
+  S.ui.ob = null;
+  S.ui.bandPrev = null;
+  render();
+  window.scrollTo(0, 0);
+}
+async function deleteProfile() {
+  const pid = S.pid, name = S.profile ? S.profile.name : '';
+  const others = profilesList().length - 1;
+  const ok = await confirmBox(`سيُحذف بروفايل «${name}» مع كل عاداته وسجله نهائياً${others ? '، وتبقى البروفايلات الأخرى كما هي' : ''}.`, 'حذف البروفايل');
+  if (!ok) return;
+  const ids = [...new Set([...docIdsOf(pid), ...[...C.known].filter(id => parseDocId(id).pid === pid)])];
+  delete S.all[pid];
+  const rest = profilesList();
+  if (rest.length) setActive(rest[0][0]);
+  else {
+    S.pid = 'main';
+    try { localStorage.removeItem(activeKey()); } catch (e) {}
+    Object.assign(S.ui, { ob:null, tab:'today', day:todayKey(), follow:true, pdraft:null, bandPrev:null, bandIntro:false, obIntro:false });
+  }
+  persistIds(ids);
+  render();
+  window.scrollTo(0, 0);
+  toast(`حُذف بروفايل «${name}»`);
+}
+
+/* ----- images, backup, wipe ----- */
+function readImage(file) {
+  return new Promise((res, rej) => {
+    if (!file || !/^image\//.test(file.type)) return rej(new Error('type'));
+    const fr = new FileReader();
+    fr.onerror = () => rej(new Error('read'));
+    fr.onload = () => {
+      const img = new Image();
+      img.onload = () => {
+        try {
+          const N = 192, c = document.createElement('canvas');
+          c.width = c.height = N;
+          const g = c.getContext('2d');
+          const m = Math.min(img.naturalWidth, img.naturalHeight);
+          if (!m) return rej(new Error('size'));
+          g.fillStyle = '#ffffff';
+          g.fillRect(0, 0, N, N);
+          g.drawImage(img, (img.naturalWidth - m) / 2, (img.naturalHeight - m) / 2, m, m, 0, 0, N, N);
+          res(c.toDataURL('image/jpeg', 0.86));
+        } catch (e) { rej(e); }
+      };
+      img.onerror = () => rej(new Error('decode'));
+      img.src = fr.result;
+    };
+    fr.readAsDataURL(file);
+  });
+}
+async function onImage(file) {
+  try {
+    const url = await readImage(file);
+    if (S.ui.fileFor === 'ob' && S.ui.ob) S.ui.ob.avatar = { kind:'image', value:url };
+    else if (S.ui.fileFor === 'pf' && S.ui.pdraft) S.ui.pdraft.avatar = { kind:'image', value:url };
+    render();
+  } catch (e) {
+    toast('تعذّرت قراءة الصورة. الأنسب صورة بصيغة JPG أو PNG.');
+  }
+}
+function exportBackup() {
+  const payload = JSON.stringify({ app:'naseej', version:2, exported:new Date().toISOString(), owner:OWNER_NAME, ownership_id:OWNERSHIP_ID,
+    profiles: profilesList().map(([pid, d]) => ({ id:pid, profile:d.profile, habits:d.habits, logs:d.logs })) }, null, 2);
+  try {
+    const url = URL.createObjectURL(new Blob([payload], { type:'application/json' }));
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'naseej-backup-' + todayKey() + '.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+    toast('تم تنزيل النسخة الاحتياطية');
+  } catch (e) {
+    toast('تعذّر تنزيل النسخة الاحتياطية في هذا المتصفح');
+  }
+}
+async function importBackup(file) {
+  let o;
+  try { o = JSON.parse(await file.text()); } catch (e) { o = null; }
+  const bad = () => toast('الملف غير صالح. يلزم ملف نسخة احتياطية من نسيج.');
+  if (!o || o.app !== 'naseej') return bad();
+  if (Array.isArray(o.profiles)) {
+    const incoming = [];
+    o.profiles.forEach(x => { const sl = normSlot(x); if (sl.profile && sl.profile.name) incoming.push([x && PID_RE.test(x.id) ? x.id : null, sl]); });
+    if (!incoming.length) return bad();
+    const ok = await confirmBox(`ستحل بيانات الملف (${profilesCountText(Math.min(incoming.length, MAX_PROFILES))}) محل كل البروفايلات الحالية وعاداتها وسجلها.`, 'استعادة النسخة');
+    if (!ok) return;
+    const oldIds = [...docIdsAll(), ...C.known];
+    const all = {};
+    incoming.slice(0, MAX_PROFILES).forEach(([pid, sl]) => { all[pid && !all[pid] ? pid : randPid(all)] = sl; });
+    S.all = all;
+    pickActive(true);
+    setActive(S.pid);
+    persistIds([...new Set([...oldIds, ...docIdsAll()])]);
+    render();
+    toast('تمت استعادة النسخة الاحتياطية');
+    return;
+  }
+  const sl = normSlot(o);
+  if (!sl.profile || !sl.profile.name || !Array.isArray(o.habits)) return bad();
+  if (profilesList().length >= MAX_PROFILES) { toast(`وصل عدد البروفايلات إلى الحد الأعلى (${MAX_PROFILES}).`); return; }
+  const ok = await confirmBox(`سيُضاف محتوى الملف كبروفايل جديد باسم «${sl.profile.name}»، وتبقى البروفايلات الحالية كما هي.`, 'إضافة البروفايل');
+  if (!ok) return;
+  const pid = newPid();
+  sl.profile.createdAt = Date.now();
+  S.all[pid] = sl;
+  setActive(pid);
+  persistIds(docIdsOf(pid));
+  render();
+  toast(`أُضيف بروفايل «${sl.profile.name}»`);
+}
+
+/* ================= events ================= */
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-act]');
+  if (!el || el.disabled) return;
+  const a = el.dataset.act, v = el.dataset.v;
+  switch (a) {
+    case 'tab': S.ui.tab = v; render(); window.scrollTo(0, 0); break;
+    case 'day': if (el.dataset.k) { S.ui.day = el.dataset.k; S.ui.follow = S.ui.day === todayKey(); render(); } break;
+    case 'go-today': S.ui.day = todayKey(); S.ui.follow = true; render(); break;
+    case 'tap': tapHabit(el.dataset.id, 1); break;
+    case 'dec': tapHabit(el.dataset.id, -1); break;
+    case 'add-habit': openHabit(null); break;
+    case 'edit-habit': openHabit(el.dataset.id); break;
+    case 'up': moveHabit(el.dataset.id, -1); break;
+    case 'down': moveHabit(el.dataset.id, 1); break;
+    case 'arch-toggle': S.ui.archOpen = !el.parentElement.open; break;
+    case 'restore': { const h = S.habits.find(x => x.id === el.dataset.id); if (h) { h.archived = false; persist(['habits']); render(); toast('استُعيدت العادة'); } break; }
+    case 'purge': purgeHabit(el.dataset.id); break;
+    case 'hd-close': closeHabit(); break;
+    case 'hd-icon': if (HD) { HD.h.icon = v; renderHD(el); } break;
+    case 'hd-color': if (HD) { HD.h.color = v; renderHD(el); } break;
+    case 'hd-kind': if (HD) { HD.h.kind = v; if (v === 'count' && !(+HD.h.target >= 2)) HD.h.target = 8; renderHD(el); } break;
+    case 'hd-days': if (HD) { HD.h.days = v === 'all' ? [...ALL] : v === 'work' ? [...WORK] : [5, 6]; renderHD(el); } break;
+    case 'hd-day': if (HD) { const dd = +v, s = new Set(HD.h.days); if (s.has(dd)) s.delete(dd); else s.add(dd); HD.h.days = [...s].sort((x, y) => x - y); renderHD(el); } break;
+    case 'hd-time': if (HD) { HD.h.time = v; renderHD(el); } break;
+    case 'hd-sugg': if (HD) { const t = PROFILES[+el.dataset.p].habits[+el.dataset.i]; Object.assign(HD.h, { name:t.name, icon:t.icon, color:t.color, kind:t.kind || 'check', target:t.target || 8, unit:t.unit || '', days:[...(t.days || ALL)], time:t.time || 'any' }); renderHD(el); } break;
+    case 'hd-save': saveHabit(); break;
+    case 'hd-archive': archiveHabit(); break;
+    case 'm-prev': S.ui.month = addMonths(S.ui.month, -1); render(); break;
+    case 'm-next': S.ui.month = addMonths(S.ui.month, 1); render(); break;
+    case 'stat': S.ui.stat = v; S.ui.sel = {}; render(); break;
+    case 'perf-range': setRange(v); delete S.ui.sel.perf; render(); break;
+    case 'bar': selectBar(el.dataset.chart, +el.dataset.i); break;
+    case 'goto-day': S.ui.day = el.dataset.k; S.ui.follow = S.ui.day === todayKey(); S.ui.tab = 'today'; render(); window.scrollTo(0, 0); break;
+    case 'pf-emoji': S.ui.pdraft.avatar = { kind:'emoji', value:v }; render(); break;
+    case 'pf-upload': S.ui.fileFor = 'pf'; $('#file-img').click(); break;
+    case 'pf-noimg': S.ui.pdraft.avatar = { kind:'emoji', value:AV_ICONS[0] }; render(); break;
+    case 'pf-type': S.ui.pdraft.types = toggleType(S.ui.pdraft.types, v); render(); break;
+    case 'pf-add-all': addSuggested(suggestedFor(S.ui.pdraft.types).flatMap(g => g.hs).map(h => h.name)); break;
+    case 'pf-week': S.ui.pdraft.weekStart = +v; render(); break;
+    case 'pf-save': saveProfile(); break;
+    case 'pf-add': addSuggested([el.dataset.name]); break;
+    case 'theme': setTheme(v); render(); break;
+    case 'export': exportBackup(); break;
+    case 'import': $('#file-json').click(); break;
+    case 'del-profile': deleteProfile(); break;
+    case 'profiles': openProfiles(); break;
+    case 'profiles-close': closeProfiles(); break;
+    case 'switch': switchProfile(v); break;
+    case 'add-profile': startAddProfile(); break;
+    case 'ob-cancel': cancelAddProfile(); break;
+    case 'retry': retrySync(); break;
+    case 'auth-google': authGoogle(); break;
+    case 'auth-submit': authSubmit(); break;
+    case 'auth-reset': authReset(); break;
+    case 'auth-mode': { const a = S.ui.auth; a.mode = a.mode === 'signup' ? 'signin' : 'signup'; a.err = ''; a.info = ''; render(); break; }
+    case 'auth-eye': S.ui.auth.showPw = !S.ui.auth.showPw; render(); break;
+    case 'auth-skip': try { localStorage.setItem('naseej.skipAuth', '1'); } catch (e) {} S.sync.mode = 'pending'; useLocal('none'); break;
+    case 'sign-out': signOutNow(); break;
+    case 'del-account': deleteAccount(); break;
+    case 'reload': location.reload(); break;
+    case 'ob-emoji': S.ui.ob.avatar = { kind:'emoji', value:v }; render(); break;
+    case 'ob-upload': S.ui.fileFor = 'ob'; $('#file-img').click(); break;
+    case 'ob-noimg': S.ui.ob.avatar = { kind:'emoji', value:AV_ICONS[0] }; render(); break;
+    case 'ob-type': { const ob = S.ui.ob; ob.types = toggleType(ob.types, v); const er = $('#ob-err'); if (er) er.textContent = ''; render(); break; }
+    case 'ob-pick': { const ob = S.ui.ob, n = el.dataset.name; ob.picks[n] = !(ob.picks[n] !== false); render(); break; }
+    case 'ob-week': S.ui.ob.weekStart = +v; render(); break;
+    case 'ob-next': obNext(); break;
+    case 'ob-back': S.ui.ob.step = Math.max(1, S.ui.ob.step - 1); render(); window.scrollTo(0, 0); break;
+    case 'ob-finish': obFinish(); break;
+  }
+});
+document.addEventListener('input', e => {
+  const t = e.target, id = t.id;
+  if (id === 'au-email' || id === 'au-pass') {
+    if (id === 'au-email') S.ui.auth.email = t.value; else AUTH_PW = t.value;
+    if (S.ui.auth.err) { S.ui.auth.err = ''; const er = $('#au-err'); if (er) er.textContent = ''; }
+    return;
+  }
+  if (id === 'ob-name' && S.ui.ob) { S.ui.ob.name = t.value; const er = $('#ob-err'); if (er) er.textContent = ''; }
+  else if (id === 'ob-goal' && S.ui.ob) S.ui.ob.goal = t.value;
+  else if (id === 'pf-name' && S.ui.pdraft) { S.ui.pdraft.name = t.value; const pv = $('#pf-preview'); if (pv) pv.textContent = t.value.trim() || 'بلا اسم'; updateSaveBar(); }
+  else if (id === 'pf-goal' && S.ui.pdraft) { S.ui.pdraft.goal = t.value; updateSaveBar(); }
+  else if (id === 'hd-name' && HD) { HD.h.name = t.value; const er = $('#hd-err'); if (er) er.textContent = ''; }
+  else if (id === 'hd-target' && HD) HD.h.target = t.value;
+  else if (id === 'hd-unit' && HD) HD.h.unit = t.value;
+});
+document.addEventListener('change', e => {
+  const t = e.target, id = t.id;
+  if (id === 'ob-hijri' && S.ui.ob) S.ui.ob.hijri = t.checked;
+  else if (id === 'pf-hijri' && S.ui.pdraft) { S.ui.pdraft.hijri = t.checked; updateSaveBar(); }
+  else if (id === 'file-img') { const f = t.files && t.files[0]; t.value = ''; if (f) onImage(f); }
+  else if (id === 'file-json') { const f = t.files && t.files[0]; t.value = ''; if (f) importBackup(f); }
+});
+document.addEventListener('keydown', e => {
+  const tg = e.target;
+  if (tg && tg.classList && tg.classList.contains('cbar')) {
+    const i = +tg.dataset.i, n = tg.parentElement.children.length;
+    let j = null;
+    if (e.key === 'ArrowLeft') j = i + 1;
+    else if (e.key === 'ArrowRight') j = i - 1;
+    else if (e.key === 'Home') j = 0;
+    else if (e.key === 'End') j = n - 1;
+    if (j != null) { e.preventDefault(); selectBar(tg.dataset.chart, Math.max(0, Math.min(n - 1, j)), true); }
+    return;
+  }
+  if (e.key !== 'Enter' || e.isComposing) return;
+  const id = e.target && e.target.id;
+  if (id === 'au-email' || id === 'au-pass') { e.preventDefault(); authSubmit(); }
+  else if (id === 'hd-name' || id === 'hd-target' || id === 'hd-unit') { e.preventDefault(); saveHabit(); }
+  else if (id === 'ob-name') { e.preventDefault(); obNext(); }
+  else if (id === 'ob-goal') { e.preventDefault(); obFinish(); }
+  else if ((id === 'pf-name' || id === 'pf-goal') && S.ui.pdraft && JSON.stringify(S.ui.pdraft) !== JSON.stringify(S.profile)) { e.preventDefault(); saveProfile(); }
+});
+$('#dlg-habit').addEventListener('close', () => { HD = null; });
+$('#dlg-profiles').addEventListener('click', e => { if (e.target === e.currentTarget) closeProfiles(); });
+document.addEventListener('pointerover', e => {
+  if (e.pointerType !== 'mouse') return;
+  const b = e.target.closest && e.target.closest('.cbar');
+  if (b) selectBar(b.dataset.chart, +b.dataset.i);
+});
+
+function checkDayRollover() {
+  if (S.profile && S.ui.follow && S.ui.day !== todayKey()) {
+    const ae = document.activeElement;
+    if (ae && (ae.tagName === 'INPUT') && ae.type !== 'checkbox') return;
+    S.ui.day = todayKey();
+    S.ui.bandPrev = null;
+    render();
+  }
+}
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'visible') return;
+  checkDayRollover();
+  if (S.sync.mode === 'local' && FB.user) reconnect(); else refreshFromCloud();
+});
+window.addEventListener('online', () => { if (S.sync.mode === 'local' && FB.user) reconnect(); });
+setInterval(checkDayRollover, 60000);
+
+/* ================= cloud connection ================= */
+async function refreshFromCloud() {
+  if (S.sync.mode !== 'cloud' || S.sync.loading || !C.db || S.ui.ob) return;
+  if (C.dirty.size || C.inflight.size || C.failed.size) return;
+  if (Date.now() - C.lastPull < 20000) return;
+  try {
+    const server = await pullAll();
+    if (C.dirty.size || C.inflight.size || S.ui.ob || !Object.keys(server.all).length) return;
+    const before = JSON.stringify(allSnapshot());
+    const prevPid = S.pid;
+    S.all = server.all;
+    pickActive(false);
+    if (S.pid !== prevPid) { setActive(S.pid); saveLocal(); softRender(); }
+    else if (JSON.stringify(allSnapshot()) !== before) {
+      saveLocal();
+      if (S.ui.tab !== 'profile') S.ui.pdraft = null;
+      softRender();
+    }
+  } catch (e) {}
+}
+async function reconnect() {
+  if (!FB.user || !C.db || !C.uid || S.sync.mode === 'cloud') return;
+  S.sync.mode = 'cloud';
+  S.sync.loading = true;
+  S.sync.reason = '';
+  setStatus();
+  let server;
+  try { server = await pullAll(); }
+  catch (e) { return useLocal(normCode(e) === 'unavailable' ? 'offline' : 'denied', true); }
+  C.unsynced.forEach(id => C.pend.add(id));
+  mergeServer(server);
+  S.sync.loading = false;
+  saveLocal();
+  if (C.dirty.size) scheduleFlush(250);
+  softRender();
+}
+function useLocal(reason, keepUid) {
+  const first = S.sync.mode === 'pending';
+  S.sync.mode = 'local';
+  S.sync.loading = false;
+  S.sync.reason = reason || '';
+  C.dirty.clear(); C.failed.clear(); C.pend.clear();
+  clearTimeout(C.timer);
+  if (!keepUid) C.uid = null;
+  if (first) loadLocal();
+  softRender();
+}
+function authMsg(e) {
+  const M = {
+    'auth/invalid-email': 'صيغة البريد الإلكتروني غير صحيحة.',
+    'auth/user-not-found': 'البريد الإلكتروني أو كلمة المرور غير صحيحة.',
+    'auth/wrong-password': 'البريد الإلكتروني أو كلمة المرور غير صحيحة.',
+    'auth/invalid-credential': 'البريد الإلكتروني أو كلمة المرور غير صحيحة.',
+    'auth/invalid-login-credentials': 'البريد الإلكتروني أو كلمة المرور غير صحيحة.',
+    'auth/email-already-in-use': 'هذا البريد مسجّل من قبل، ويمكن تسجيل الدخول به.',
+    'auth/weak-password': 'كلمة المرور ضعيفة، يلزم 6 أحرف على الأقل.',
+    'auth/missing-password': 'كلمة المرور مطلوبة.',
+    'auth/too-many-requests': 'محاولات كثيرة متتالية. يمكن المحاولة بعد قليل.',
+    'auth/network-request-failed': 'تعذّر الاتصال بالإنترنت.',
+    'auth/user-disabled': 'هذا الحساب موقوف.',
+    'auth/popup-blocked': 'المتصفح منع نافذة تسجيل الدخول.',
+    'auth/unauthorized-domain': 'نطاق هذا الموقع غير مضاف في إعدادات Firebase (Authorized domains).',
+    'auth/operation-not-allowed': 'طريقة الدخول هذه غير مفعّلة في إعدادات Firebase.',
+    'auth/configuration-not-found': 'خدمة تسجيل الدخول غير مفعّلة في مشروع Firebase.',
+    'auth/invalid-api-key': 'إعدادات Firebase في ملف الموقع غير صحيحة.'
+  };
+  const c = String((e && e.code) || '');
+  return M[c] || (c.startsWith('auth/api-key-not-valid') ? M['auth/invalid-api-key'] : 'تعذّر إكمال العملية. يمكن المحاولة مرة أخرى.');
+}
+function authFail(msg) { const a = S.ui.auth; a.err = msg; a.info = ''; }
+async function authGoogle() {
+  if (!FB.auth || S.ui.auth.busy) return;
+  const a = S.ui.auth;
+  a.err = ''; a.info = ''; a.busy = true; render();
+  const provider = new firebase.auth.GoogleAuthProvider();
+  try { await FB.auth.signInWithPopup(provider); }
+  catch (e) {
+    const c = e && e.code;
+    if (c === 'auth/popup-blocked' || c === 'auth/operation-not-supported-in-this-environment') {
+      try { await FB.auth.signInWithRedirect(provider); return; } catch (e2) { authFail(authMsg(e2)); }
+    } else if (c !== 'auth/popup-closed-by-user' && c !== 'auth/cancelled-popup-request') authFail(authMsg(e));
+  } finally { a.busy = false; if (S.sync.mode === 'auth') render(); }
+}
+async function authSubmit() {
+  if (!FB.auth || S.ui.auth.busy) return;
+  const a = S.ui.auth, email = a.email.trim(), up = a.mode === 'signup';
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { authFail('صيغة البريد الإلكتروني غير صحيحة.'); render(); return; }
+  if (!AUTH_PW) { authFail('كلمة المرور مطلوبة.'); render(); return; }
+  if (up && AUTH_PW.length < 6) { authFail('كلمة المرور قصيرة، يلزم 6 أحرف على الأقل.'); render(); return; }
+  a.err = ''; a.info = ''; a.busy = true; render();
+  try {
+    if (up) await FB.auth.createUserWithEmailAndPassword(email, AUTH_PW);
+    else await FB.auth.signInWithEmailAndPassword(email, AUTH_PW);
+    AUTH_PW = '';
+  } catch (e) { authFail(authMsg(e)); }
+  finally { a.busy = false; if (S.sync.mode === 'auth') render(); }
+}
+async function authReset() {
+  if (!FB.auth || S.ui.auth.busy) return;
+  const a = S.ui.auth, email = a.email.trim();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { authFail('يلزم كتابة البريد الإلكتروني أولاً، ثم الضغط على «نسيت كلمة المرور؟».'); render(); return; }
+  a.err = ''; a.info = ''; a.busy = true; render();
+  const sent = 'إذا كان البريد مسجّلاً، سيصله رابط لإعادة تعيين كلمة المرور.';
+  try { await FB.auth.sendPasswordResetEmail(email); a.info = sent; }
+  catch (e) { if (e && e.code === 'auth/user-not-found') a.info = sent; else authFail(authMsg(e)); }
+  finally { a.busy = false; if (S.sync.mode === 'auth') render(); }
+}
+async function settleWrites() {
+  if (C.dirty.size) { clearTimeout(C.timer); flush(); }
+  for (let i = 0; i < 20 && (C.dirty.size || C.inflight.size); i++) await sleep(200);
+}
+function forgetDevice(uid) {
+  try { localStorage.removeItem(LS_PREFIX + uid); localStorage.removeItem(LS_ACTIVE + uid); } catch (e) {}
+}
+async function signOutNow(skipCheck) {
+  if (!FB.auth || !FB.user) return;
+  if (!skipCheck) {
+    await settleWrites();
+    if (S.sync.mode === 'local' || C.unsynced.size || C.failed.size) {
+      const ok = await confirmBox('توجد تغييرات لم تُرفع إلى حسابك بعد، وستضيع إذا تم الخروج الآن. الخروج على أي حال؟', 'تسجيل الخروج');
+      if (!ok) return;
+    }
+  }
+  forgetDevice(C.uid);
+  try { await FB.auth.signOut(); } catch (e) { toast('تعذّر تسجيل الخروج'); }
+}
+async function deleteAccount() {
+  const u = FB.user;
+  if (!u || !C.db) return;
+  const last = Date.parse((u.metadata && u.metadata.lastSignInTime) || '') || 0;
+  if (Date.now() - last > 4 * 60 * 1000) {
+    const ok = await confirmBox('لحماية حسابك، حذف الحساب يحتاج تسجيل دخول حديث. سيتم تسجيل خروجك، ثم يمكن الدخول من جديد وتكرار الحذف.', 'تسجيل الخروج');
+    if (ok) signOutNow(true);
+    return;
+  }
+  const ok = await confirmBox('سيُحذف حسابك مع كل بروفايلاتك وعاداتك وسجلك نهائياً، ولا يمكن التراجع عن هذا.', 'حذف الحساب');
+  if (!ok) return;
+  clearTimeout(C.timer);
+  C.dirty.clear(); C.failed.clear();
+  for (let i = 0; i < 20 && C.inflight.size; i++) await sleep(200);
+  const uid = C.uid;
+  try {
+    const snap = await C.db.collection(colPath()).get();
+    await Promise.all(snap.docs.map(d => C.db.doc(colPath() + '/' + d.id).delete()));
+    forgetDevice(uid);
+    await u.delete();
+    toast('حُذف الحساب وكل بياناته');
+  } catch (e) {
+    toast(e && e.code === 'auth/requires-recent-login' ? 'حُذفت البيانات، ولحذف الحساب نفسه يلزم تسجيل الدخول من جديد ثم تكرار الحذف.' : 'تعذّر حذف الحساب. يمكن المحاولة مرة أخرى.');
+  }
+}
+function resetSession() {
+  clearTimeout(C.timer);
+  C.db = null; C.uid = null;
+  C.dirty.clear(); C.inflight.clear(); C.failed.clear(); C.pend.clear();
+  C.known = new Set(); C.unsynced = new Set(); C.lastPull = 0;
+  S.all = {}; S.pid = 'main';
+  S.sync.loading = false; S.sync.reason = '';
+  Object.assign(S.ui, { tab:'today', day:todayKey(), follow:true, month:monthOf(todayKey()), stat:'all', ob:null, pdraft:null,
+    bandPrev:null, bandIntro:false, obIntro:false, archOpen:false, sel:{} });
+  Object.assign(S.ui.auth, { mode:'signin', email:'', busy:false, err:'', info:'', showPw:false });
+  AUTH_PW = '';
+}
+async function onUser(u) {
+  if (u && FB.user && u.uid === FB.user.uid) return;
+  FB.user = u || null;
+  resetSession();
+  if (!u) { S.sync.mode = 'auth'; render(); window.scrollTo(0, 0); return; }
+  C.db = { collection: p => FB.fs.collection(p), doc: p => FB.fs.doc(p) };
+  C.uid = u.uid;
+  S.sync.mode = 'cloud';
+  S.sync.loading = true;
+  loadLocal();
+  render();
+  let server;
+  try { server = await pullAll(); }
+  catch (e) {
+    if (FB.user !== u) return;
+    return useLocal(normCode(e) === 'unavailable' ? 'offline' : 'denied', true);
+  }
+  if (FB.user !== u) return;
+  C.unsynced.forEach(x => C.pend.add(x));
+  mergeServer(server);
+  if (!profilesList().length && !S.ui.ob && u.displayName) {
+    S.ui.ob = { step:1, name:String(u.displayName).slice(0, 40), avatar:{ kind:'emoji', value:AV_ICONS[0] }, types:[], picks:{}, goal:'', weekStart:0, hijri:true };
+  }
+  S.sync.loading = false;
+  saveLocal();
+  if (C.dirty.size) scheduleFlush(250);
+  softRender();
+}
+function connect() {
+  if (!AUTH_ON) {
+    let skip = false;
+    try { skip = localStorage.getItem('naseej.skipAuth') === '1'; } catch (e) {}
+    if (skip) return useLocal('none');
+    S.sync.mode = 'auth';
+    render();
+    return;
+  }
+  if (!window.firebase || typeof firebase.initializeApp !== 'function') { S.sync.mode = 'auth'; S.ui.auth.fatal = true; render(); return; }
+  try {
+    if (!(firebase.apps && firebase.apps.length)) firebase.initializeApp(FIREBASE_CONFIG);
+    FB.auth = firebase.auth();
+    FB.fs = firebase.firestore();
+    try { FB.auth.useDeviceLanguage(); } catch (e) {}
+  } catch (e) { S.sync.mode = 'auth'; S.ui.auth.fatal = true; render(); return; }
+  FB.auth.getRedirectResult().catch(e => { authFail(authMsg(e)); if (S.sync.mode === 'auth') render(); });
+  FB.auth.onAuthStateChanged(u => { onUser(u); });
+}
+
+/* ================= boot ================= */
+applyTheme(getTheme());
+applyWatermark();
+try { console.info('%cنسيج', 'font-weight:700;font-size:14px;color:#A8292B', `\n© ${OWNER_YEAR} ${OWNER_NAME}. جميع الحقوق محفوظة.\nمعرّف الملكية: ${OWNERSHIP_ID}`); } catch (e) {}
+buildDefs();
+render();
+connect();
+})();
+</script>
+</body>
+</html>
